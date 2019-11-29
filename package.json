@@ -1,0 +1,23 @@
+{
+  "name": "verisafe-assets",
+  "version": "1.0.0",
+  "description": "List of known assets for use in the Dex or TipGram Bot",
+  "main": "index.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VeriSafe/VeriSafe-Assets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VeriSafe/VeriSafe-Assets/issues"
+  },
+  "homepage": "https://github.com/VeriSafe/VeriSafe-Assets#readme",
+  "dependencies": {
+    "decache": "^4.5.1"
+  }
+}
