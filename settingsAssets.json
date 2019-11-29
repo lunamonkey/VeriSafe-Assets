@@ -65,7 +65,7 @@
 		},
 		"vsfblackfriday": {
             "ticker": "VSFBlackFriday",
-            "name": "VeriSafe (Black Friday)",
+            "name": "VeriSafe (Black Friday promo)",
             "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
             "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
             "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
