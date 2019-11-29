@@ -28,7 +28,7 @@ async function main(){
 		// put the contents of coins, directly into assets (no parent container)
 		console.log("VeriSafe Assets: About to reassign core-assets-coins from assets-coins.");
 		Object.assign(process.core.assets, process.assets.coins);
-	}, 5 * 1000);
+	}, 5 * 60 * 1000);
 }
 
 (async () => {
