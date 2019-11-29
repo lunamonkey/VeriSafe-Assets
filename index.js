@@ -1,4 +1,5 @@
 async function main(){
+	console.log("VeriSafe Assets:main()");
 	process.core = process.core || {};
 	process.core.assets = process.core.assets || {};
 
@@ -20,7 +21,9 @@ async function main(){
 
 (async () => {
     try {
+		console.log("VeriSafe Assets:() before");
         await main();
+		console.log("VeriSafe Assets:() done");
     } catch (e) {
         /*eslint no-console: ["error", {allow: ["error"]}]*/
         console.error("VeriSafe Assets:Main: error:(e)", e);
