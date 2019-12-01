@@ -6,6 +6,11 @@
 			"minimumWithdrawalCharge": 0.001,
             "maximumWithdrawalCharge": 0.002,
 			"decimals" : 18
+		},
+		"btc": {
+			"symbol": "BTC",
+			"decimals": 8,
+			"withdrawFee": 0.01
 		}
 	},
     "tokens": {
@@ -229,6 +234,7 @@
 			"ethOnly" : true,
 			"minimumWithdrawalCharge": 1000000000,
 			"maximumWithdrawalCharge": 10000000000,
+            "maximumWithdrawal": 10000000,
 			"decimals": 8,
 			"games": {
 				"dice": {
