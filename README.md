@@ -9,6 +9,7 @@ The pull requests will be reviewed at regular intervals. Please do not chase for
 
 Example formatting:
 
+```
 "ticker": {
 	"ticker": "TICKER",
 	"name": "Token Name",
@@ -29,3 +30,4 @@ Example formatting:
 		}
 	}
 },
+```
