@@ -6,6 +6,11 @@
 			"minimumWithdrawalCharge": 0.001,
             "maximumWithdrawalCharge": 0.002,
 			"decimals" : 18
+		},
+		"btc": {
+			"symbol": "BTC",
+			"decimals": 8,
+			"withdrawFee": 0.01
 		}
 	},
     "tokens": {
@@ -199,26 +204,6 @@
                 }
 		}
 	},
-		"void": {
-			"ticker": "VOID",
-			"name": "Void Token",
-			"mainnet-contract": "0xb8796542765747ed7f921ff12faff057b5d624d7",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0xb8796542765747ed7f921ff12faff057b5d624d7",
-			"info": "https://t.me/thevoidtokenchat",
-			"ethOnly" : true,
-			"minimumWithdrawalCharge": 1000,
-			"maximumWithdrawalCharge": 2000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 1,
-					"maxTokens": 10,
-					"name": "VoidDice"
-				}
-			}
-		},
 		"vya": {
 			"ticker": "VYA",
 			"name": "VAYLA Token",
@@ -229,6 +214,7 @@
 			"ethOnly" : true,
 			"minimumWithdrawalCharge": 1000000000,
 			"maximumWithdrawalCharge": 10000000000,
+            "maximumWithdrawal": 10000000,
 			"decimals": 8,
 			"games": {
 				"dice": {
@@ -536,26 +522,6 @@
 					"minTokens" : 10,
 					"maxTokens" : 2000,
 					"name" : "LotanDice"
-				}
-			}
-		},
-		"bcp": {
-			"ticker": "BCP",
-			"name": "bitcoinplatinums",
-			"mainnet-contract": "0xd26fb114401ec86887cd09f62eccd95fcf20b571",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0xd26fb114401ec86887cd09f62eccd95fcf20b571",
-			"info": "https://t.me/bitcoinplatinumsexchange",
-			"ethOnly" : true,
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"decimals": 8,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 1,
-					"maxTokens" : 20,
-					"name" : "BCPDice"
 				}
 			}
 		},
