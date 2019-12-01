@@ -8,7 +8,8 @@
 			"decimals" : 18
 		},
 		"btc": {
-			"symbol": "BTC",
+			"ticker": "BTC",
+			"name" : "BitCoin (not functional)",
 			"decimals": 8,
 			"withdrawFee": 0.01
 		}
