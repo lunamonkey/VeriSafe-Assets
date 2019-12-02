@@ -187,8 +187,8 @@
                     "maxTokens": 10,
                     "name": "0xBtcDice"
                 }
-		}
-	},
+			}
+		},
 		"vya": {
 			"ticker": "VYA",
 			"name": "VAYLA Token",
