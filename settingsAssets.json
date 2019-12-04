@@ -609,17 +609,6 @@
 					"name" : "DefDice"
 				}
 			}
-		},
-		"weth": {
-			"ticker": "WETH",
-			"name": "Wrapped Ether",
-			"mainnet-contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-			"info": "https://weth.io/",
-			"minimumWithdrawalCharge": 0.0006,
-			"maximumWithdrawalCharge": 0.0018,
-			"decimals": 18
 		}
 	}
 }
