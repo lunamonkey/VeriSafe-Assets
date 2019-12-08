@@ -109,26 +109,6 @@
                 }
             }
         },
-        "dpc": {
-            "ticker": "DPC",
-            "name": "Dan Pan Coin",
-            "mainnet-contract": "0xd434e2ec93be12d72934543f68278c2b8e0cb3fc",
-            "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-            "contract": "0xd434e2ec93be12d72934543f68278c2b8e0cb3fc",
-            "info": "",
-			"ethOnly" : true,
-            "minimumWithdrawalCharge": 100000,
-            "maximumWithdrawalCharge": 300000,
-            "decimals": 2,
-            "games": {
-                "dice": {
-                    "houseFee": 3,
-                    "minTokens": 1000,
-                    "maxTokens": 10000,
-                    "name": "DanDice"
-                }
-            }
-		},
 		"tuck": {
             "ticker": "TUCK",
             "name": "Tuckermint",
@@ -189,47 +169,6 @@
                 }
 			}
 		},
-		"vya": {
-			"ticker": "VYA",
-			"name": "VAYLA Token",
-			"mainnet-contract": "0x7b53b2c4b2f495d843a4e92e5c5511034d32bd15",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x7b53b2c4b2f495d843a4e92e5c5511034d32bd15",
-			"info": "https://t.me/VAYLAtoken",
-			"ethOnly" : true,
-			"minimumWithdrawalCharge": 1000000000,
-			"maximumWithdrawalCharge": 10000000000,
-            "maximumWithdrawal": 10000000,
-			"decimals": 8,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 1000,
-					"maxTokens": 100000,
-					"name": "VaylaDice"
-				}
-			}
-		},
-		"vdex": {
-			"ticker": "VDEX",
-			"name": "VAYLA DEX",
-			"mainnet-contract": "0x3Fe1c06061F3EA23f4Aa771Ed33Cf878486CF214",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x3Fe1c06061F3EA23f4Aa771Ed33Cf878486CF214",
-			"info": "https://t.me/VAYLADEX",
-			"ethOnly" : true,
-			"minimumWithdrawalCharge": 1000000000,
-			"maximumWithdrawalCharge": 10000000000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 1000,
-					"maxTokens": 100000,
-					"name": "VdexDice"
-				}
-			}
-		},
 		"angel": {
 			"ticker": "ANGEL",
 			"name": "ANGEL Token",
@@ -250,26 +189,6 @@
 				}
 			}
 		},
-		"mia": {
-			"ticker": "MIA",
-			"name": "Miasma",
-			"mainnet-contract": "0xa52d617149ba4dd280a1d76fe3821c4547a382c9",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0xa52d617149ba4dd280a1d76fe3821c4547a382c9",
-			"info": "https://t.me/MiasmaAirdrop",
-			"ethOnly" : true,
-			"minimumWithdrawalCharge": 200000,
-			"maximumWithdrawalCharge": 800000,
-			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 10,
-					"maxTokens" : 10000,
-					"name" : "MiaDice"
-				}
-			}
-        },
 		"sam": {
 			"ticker": "SAM",
 			"name": "Sambam",
@@ -507,26 +426,6 @@
 					"minTokens" : 10,
 					"maxTokens" : 2000,
 					"name" : "LotanDice"
-				}
-			}
-		},
-		"chess": {
-			"ticker": "CHESS",
-			"name": "Chess Coin",
-			"mainnet-contract": "0x5f75112bBB4E1aF516fBE3e21528C63DA2B6a1A5",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x5f75112bBB4E1aF516fBE3e21528C63DA2B6a1A5",
-			"info": "http://t.me/BrainiacChess_Network",
-			"ethOnly" : true,
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 1,
-					"maxTokens" : 20,
-					"name" : "ChessDice"
 				}
 			}
 		},
