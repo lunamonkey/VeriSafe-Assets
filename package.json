@@ -1,6 +1,6 @@
 {
   "name": "verisafe-assets",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List of known assets for use in the Dex or TipGram Bot",
   "main": "index.js",
   "scripts": {
