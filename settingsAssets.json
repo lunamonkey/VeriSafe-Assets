@@ -3,7 +3,7 @@
 		"eth" :{
 			"ticker" : "ETH",
 			"name" : "Ether",
-			"minimumWithdrawalCharge": 0.005,
+			"minimumWithdrawalCharge": 0.0005,
 			"standardWithdrawalCharge": 0.0015,
             "maximumWithdrawalCharge": 0.003,
 			"decimals" : 18
