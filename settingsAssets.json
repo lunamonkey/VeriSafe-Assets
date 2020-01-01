@@ -54,38 +54,6 @@
 				}
             }
 		},
-		"vsffree": {
-            "ticker": "VSFFree",
-            "name": "VeriSafe (Free giveaway)",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-			"info": "https://t.me/VeriSafe",
-            "dex": "https://dex.verisafe.io/#/erc20/?base=vsf&quote=weth",
-			"ethOnly" : true,
-			"events" : false,
-            "minimumWithdrawalCharge": 100000000,
-            "minimumWithdrawal": 1,
-            "maximumWithdrawalCharge": 200000000,
-            "maximumWithdrawal": 10000,
-			"decimals": 18
-		},
-		"vsfsorry": {
-            "ticker": "VSFSorry",
-            "name": "VeriSafe (As apology for bot downtime)",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-			"info": "https://t.me/VeriSafe",
-            "dex": "https://dex.verisafe.io/#/erc20/?base=vsf&quote=weth",
-			"ethOnly" : true,
-			"events" : false,
-            "minimumWithdrawalCharge": 100000000,
-            "minimumWithdrawal": 1,
-            "maximumWithdrawalCharge": 200000000,
-            "maximumWithdrawal": 20000,
-			"decimals": 18
-		},
         "zeus": {
             "ticker": "ZEUS",
             "name": "Zeus",
@@ -524,6 +492,27 @@
 					"minTokens" : 1,
 					"maxTokens" : 20,
 					"name" : "DefDice"
+				}
+			}
+		},
+
+"arcg": {
+			"ticker": "ARCG",
+			"name": "Arch Crypton Game",
+			"mainnet-contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
+			"info": "https://t.me/ArchCryptonGroup",
+			"ethOnly" : true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"decimals": 18,
+			"games" : {
+				"dice" : {
+					"houseFee" : 3,
+					"minTokens" : 10,
+					"maxTokens" : 2000,
+					"name" : "ArchDice"
 				}
 			}
 		}
