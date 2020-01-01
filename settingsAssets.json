@@ -54,38 +54,6 @@
 				}
             }
 		},
-		"vsffree": {
-            "ticker": "VSFFree",
-            "name": "VeriSafe (Free giveaway)",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-			"info": "https://t.me/VeriSafe",
-            "dex": "https://dex.verisafe.io/#/erc20/?base=vsf&quote=weth",
-			"ethOnly" : true,
-			"events" : false,
-            "minimumWithdrawalCharge": 100000000,
-            "minimumWithdrawal": 1,
-            "maximumWithdrawalCharge": 200000000,
-            "maximumWithdrawal": 10000,
-			"decimals": 18
-		},
-		"vsfsorry": {
-            "ticker": "VSFSorry",
-            "name": "VeriSafe (As apology for bot downtime)",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-			"info": "https://t.me/VeriSafe",
-            "dex": "https://dex.verisafe.io/#/erc20/?base=vsf&quote=weth",
-			"ethOnly" : true,
-			"events" : false,
-            "minimumWithdrawalCharge": 100000000,
-            "minimumWithdrawal": 1,
-            "maximumWithdrawalCharge": 200000000,
-            "maximumWithdrawal": 20000,
-			"decimals": 18
-		},
         "zeus": {
             "ticker": "ZEUS",
             "name": "Zeus",
