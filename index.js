@@ -21,6 +21,7 @@ async function main(){
 	setInterval(() => {
 		console.log("VeriSafe Assets: About to get assets and reassign.");
 		decache("./settingsAssets.json");
+		process.core.assets = {};
 		process.assets = require("./settingsAssets.json");
 		// put the contents of tokens, directly into assets (no parent container)
 		console.log("VeriSafe Assets: About to reassign core-assets-tokens from assets-tokens.");

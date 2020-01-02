@@ -495,8 +495,7 @@
 				}
 			}
 		},
-
-"arcg": {
+		"arcg": {
 			"ticker": "ARCG",
 			"name": "Arch Crypton Game",
 			"mainnet-contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
@@ -513,6 +512,26 @@
 					"minTokens" : 10,
 					"maxTokens" : 2000,
 					"name" : "ArchDice"
+				}
+			}
+		},
+		"scn": {
+			"ticker": "SCN",
+			"name": "Silver Coin",
+			"mainnet-contract": "0x8a65ab17324c155fAc3e46aD33e9553d9165a252",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x8a65ab17324c155fAc3e46aD33e9553d9165a252",
+			"info": "https://t.me/Silvercoin_Group",
+			"ethOnly" : true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"decimals": 8,
+			"games" : {
+				"dice" : {
+					"houseFee" : 3,
+					"minTokens" : 10,
+					"maxTokens" : 2000,
+					"name" : "SilverDice"
 				}
 			}
 		}
