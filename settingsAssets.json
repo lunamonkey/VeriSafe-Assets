@@ -554,6 +554,26 @@
 					"name" : "PhantomDice"
 				}
 			}
+		},
+		"mtcx": {
+			"ticker": "MTCX",
+			"name": "MYTHIC",
+			"mainnet-contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
+			"info": "https://t.me/mythicalxgroup",
+			"ethOnly" : true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"decimals": 18,
+			"games" : {
+				"dice" : {
+					"houseFee" : 3,
+					"minTokens" : 0.1,
+					"maxTokens" : 10,
+					"name" : "PhantomDice"
+				}
+			}
 		}
 	}
 }
