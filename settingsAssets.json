@@ -571,7 +571,7 @@
 					"houseFee" : 3,
 					"minTokens" : 0.1,
 					"maxTokens" : 10,
-					"name" : "PhantomDice"
+					"name" : "MythicDice"
 				}
 			}
 		}
