@@ -68,7 +68,8 @@
 			"minimumWithdrawal": 1,
 			"maximumWithdrawal": 10000,
 			"decimals": 18,
-			"withdrawalInfo" : "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it."
+			"withdrawalInfo" : "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it.",
+			"hideOnDex" : true
 		},
         "zeus": {
             "ticker": "ZEUS",
@@ -569,7 +570,8 @@
 					"maxTokens" : 10,
 					"name" : "PhantomDice"
 				}
-			}
+			},
+			"hideOnDex" : true
 		},
 		"mtcx": {
 			"ticker": "MTCX",
