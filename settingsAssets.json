@@ -52,7 +52,23 @@
 					"maxTokens": 10000,
 					"name": "VeriSpin"
 				}
-            }
+			}
+		},
+		"vsfx": {
+			"ticker": "vsfx",
+			"name": "VSFx (Promo VSF)",
+			"mainnet-contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
+			"info": "https://t.me/VeriSafe",
+			"ethOnly" : true,
+			"events" : false,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 10000,
+			"decimals": 18,
+			"withdrawalInfo" : "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it."
 		},
         "zeus": {
             "ticker": "ZEUS",
@@ -572,6 +588,26 @@
 					"minTokens" : 0.1,
 					"maxTokens" : 10,
 					"name" : "MythicDice"
+				}
+			}
+		},
+		"sit": {
+			"ticker": "SIT",
+			"name": "SitKoin",
+			"mainnet-contract": "0x5fea39e08561caef6bd94cdaa48ef002111de741",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x5fea39e08561caef6bd94cdaa48ef002111de741",
+			"info": "https://t.me/sitcoinofficial",
+			"ethOnly" : true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"decimals": 18,
+			"games" : {
+				"dice" : {
+					"houseFee" : 3,
+					"minTokens" : 0.1,
+					"maxTokens" : 10,
+					"name" : "SitDice"
 				}
 			}
 		}
