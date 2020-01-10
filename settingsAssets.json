@@ -52,7 +52,7 @@
 					"maxTokens": 10000,
 					"name": "VeriSpin"
 				}
-            }
+			}
 		},
         "zeus": {
             "ticker": "ZEUS",
@@ -572,6 +572,26 @@
 					"minTokens" : 0.1,
 					"maxTokens" : 10,
 					"name" : "MythicDice"
+				}
+			}
+		},
+		"sit": {
+			"ticker": "SIT",
+			"name": "SitKoin",
+			"mainnet-contract": "0x5fea39e08561caef6bd94cdaa48ef002111de741",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x5fea39e08561caef6bd94cdaa48ef002111de741",
+			"info": "https://t.me/sitcoinofficial",
+			"ethOnly" : true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"decimals": 18,
+			"games" : {
+				"dice" : {
+					"houseFee" : 3,
+					"minTokens" : 0.1,
+					"maxTokens" : 10,
+					"name" : "SitDice"
 				}
 			}
 		}
