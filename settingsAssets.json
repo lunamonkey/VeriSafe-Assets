@@ -71,7 +71,7 @@
 			"withdrawalInfo" : "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it.",
 			"hideOnDex" : true
 		},
-        "zeus": {
+    "zeus": {
             "ticker": "ZEUS",
             "name": "Zeus",
             "mainnet-contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
@@ -131,7 +131,7 @@
                 }
             }
         },
-        "rxt": {
+      "rxt": {
             "ticker": "RXT",
             "name": "RaptorXchange",
             "mainnet-contract": "0x4bFFD10cF632E6c37214D19Fec8C343ed0a7BDc5",
