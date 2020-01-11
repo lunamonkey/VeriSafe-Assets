@@ -52,10 +52,13 @@
 					"maxTokens": 10000,
 					"name": "VeriSpin"
 				}
+			},
+			"rain" : {
+				"minimumTokens" : 10
 			}
 		},
 		"vsfx": {
-			"ticker": "vsfx",
+			"ticker": "VSFx",
 			"name": "VSFx (Promo VSF)",
 			"mainnet-contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
@@ -69,7 +72,10 @@
 			"maximumWithdrawal": 10000,
 			"decimals": 18,
 			"withdrawalInfo" : "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it.",
-			"hideOnDex" : true
+			"hideOnDex" : true,
+			"rain" : {
+				"minimumTokens" : 10
+			}
 		},
     "zeus": {
             "ticker": "ZEUS",
@@ -89,7 +95,10 @@
                     "maxTokens": 10000,
                     "name": "ZeusDice"
                 }
-            }
+            },
+			"rain" : {
+				"minimumTokens" : 10
+			}
         },
         "pop": {
             "ticker": "POP",
