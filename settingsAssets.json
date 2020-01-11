@@ -60,9 +60,9 @@
 		"vsfx": {
 			"ticker": "VSFx",
 			"name": "VSFx (Promo VSF)",
-			"mainnet-contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
+			"mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
+			"contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
 			"info": "https://t.me/VeriSafe",
 			"ethOnly" : true,
 			"events" : false,
