@@ -529,17 +529,16 @@
 			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
 			"info": "https://t.me/ArchCryptonGroup",
 			"ethOnly" : true,
+			"events" : false,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 0.001,
+			"maximumWithdrawal": 0.5,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 10,
-					"maxTokens" : 2000,
-					"name" : "ArchDice"
-				}
-			}
+			"hideOnDex" : true,
+			"safeGasAmount" : 500000,
+			"withdrawalInfo" : "ARCG will be delisted from the bot shortly due to Telegram account loss by ARCG team. Please withdraw your ARCG if you wish to keep your tokens."
+			
 		},
 		"scn": {
 			"ticker": "SCN",
