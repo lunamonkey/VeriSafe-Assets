@@ -533,12 +533,11 @@
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 0.001,
-			"maximumWithdrawal": 0.5,
+			"maximumWithdrawal": 1000,
 			"decimals": 18,
 			"hideOnDex" : true,
 			"safeGasAmount" : 500000,
 			"withdrawalInfo" : "ARCG will be delisted from the bot shortly due to Telegram account loss by ARCG team. Please withdraw your ARCG if you wish to keep your tokens."
-			
 		},
 		"scn": {
 			"ticker": "SCN",
