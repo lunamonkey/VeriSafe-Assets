@@ -619,6 +619,26 @@
 					"name" : "SitDice"
 				}
 			}
+		},
+		"mbc": {
+			"ticker": "MBC",
+			"name": "MobaCoin",
+			"mainnet-contract": "0x47af9fd69adc231e674140c81811a640dd92dc51",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x47af9fd69adc231e674140c81811a640dd92dc51",
+			"info": "https://t.me/mobaproject",
+			"ethOnly" : true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"decimals": 18,
+			"games" : {
+				"dice" : {
+					"houseFee" : 3,
+					"minTokens" : 10,
+					"maxTokens" : 1000,
+					"name" : "Mobadice"
+				}
+			}
 		}
 	}
 }
