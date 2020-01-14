@@ -140,26 +140,6 @@
                 }
             }
         },
-      "rxt": {
-            "ticker": "RXT",
-            "name": "RaptorXchange",
-            "mainnet-contract": "0x4bFFD10cF632E6c37214D19Fec8C343ed0a7BDc5",
-            "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-            "contract": "0x4bFFD10cF632E6c37214D19Fec8C343ed0a7BDc5",
-            "info": "https://t.me/raptorXchange",
-			"ethOnly" : true,
-            "minimumWithdrawalCharge": 30,
-            "maximumWithdrawalCharge": 100,
-            "decimals": 8,
-            "games": {
-                "dice": {
-                    "houseFee": 1,
-                    "minTokens": 1,
-                    "maxTokens": 10,
-                    "name": "RaptorDice"
-                }
-            }
-        },
         "0xbtc": {
             "ticker": "0xBTC",
             "name": "0xBitcoin",
