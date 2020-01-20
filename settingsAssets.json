@@ -619,6 +619,30 @@
 					"name" : "Mobadice"
 				}
 			}
-		}
+		},
+	    	"xdb": {
+            		"ticker": "XDB",
+            		"name": "DigitalBits",
+            		"mainnet-contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
+            		"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+            		"contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
+            		"info": "https://t.me/digitalbitstrading",
+			"ethOnly": true,
+            		"minimumWithdrawalCharge": 1000000,
+            		"maximumWithdrawalCharge": 1000000.
+            		"decimals": 7,
+            		"games": {
+                		"dice": {
+                    			"houseFee": 3,
+                    			"minTokens": 10,
+                    			"maxTokens": 100,
+                    			"name": "XDBDice"
+                		}
+           		 },
+				"rain": {
+					"minimumTokens" : 10
+				}
+	        	}
+		}	
 	}
 }
