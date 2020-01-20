@@ -629,9 +629,9 @@
             		"info": "https://t.me/digitalbitstrading",
 			"ethOnly": true,
             		"minimumWithdrawalCharge": 1000000,
-            		"maximumWithdrawalCharge": 1000000.
+            		"maximumWithdrawalCharge": 1000000,
             		"decimals": 7,
-            		"games": {
+            		"games" : {
                 		"dice": {
                     			"houseFee": 3,
                     			"minTokens": 10,
