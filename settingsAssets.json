@@ -1,44 +1,44 @@
 {
 	"coins": {
-		"eth" :{
-			"ticker" : "ETH",
-			"name" : "Ether",
+		"eth": {
+			"ticker": "ETH",
+			"name": "Ether",
 			"minimumWithdrawalCharge": 0.0005,
 			"standardWithdrawalCharge": 0.0015,
-            "maximumWithdrawalCharge": 0.003,
-			"decimals" : 18
+			"maximumWithdrawalCharge": 0.003,
+			"decimals": 18
 		},
 		"btc": {
 			"ticker": "BTC",
-			"name" : "BitCoin (not functional)",
+			"name": "BitCoin (not functional)",
 			"decimals": 8,
 			"withdrawFee": 0.01
 		}
 	},
-    "tokens": {
-        "vsf": {
-            "ticker": "VSF",
-            "name": "VeriSafe",
-            "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-            "contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-            "info": "https://t.me/VeriSafe",
-            "dex": "https://dex.verisafe.io/#/erc20/?base=vsf&quote=weth",
-            "minimumWithdrawalCharge": 20000,
-            "maximumWithdrawalCharge": 50000,
-            "decimals": 18,
-            "games": {
-                "dice": {
-                    "houseFee": 3,
-                    "minTokens": 1000,
-                    "maxTokens": 10000,
-                    "name": "VeriDice"
-                },
-                "flipLite": {
-                    "houseFee": 3,
-                    "minTokens": 1000,
-                    "maxTokens": 10000,
-                    "name": "VeriFlipLite"
+	"tokens": {
+		"vsf": {
+			"ticker": "VSF",
+			"name": "VeriSafe",
+			"mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+			"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+			"contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
+			"info": "https://t.me/VeriSafe",
+			"dex": "https://dex.verisafe.io/#/erc20/?base=vsf&quote=weth",
+			"minimumWithdrawalCharge": 20000,
+			"maximumWithdrawalCharge": 50000,
+			"decimals": 18,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "VeriDice"
+				},
+				"flipLite": {
+					"houseFee": 3,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "VeriFlipLite"
 				},
 				"flip": {
 					"houseFee": 3,
@@ -53,8 +53,8 @@
 					"name": "VeriSpin"
 				}
 			},
-			"rain" : {
-				"minimumTokens" : 10
+			"rain": {
+				"minimumTokens": 10
 			}
 		},
 		"vsfx": {
@@ -64,100 +64,100 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
 			"info": "https://t.me/VeriSafe",
-			"ethOnly" : true,
-			"events" : false,
+			"ethOnly": true,
+			"events": false,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 1,
 			"maximumWithdrawal": 10000,
 			"decimals": 18,
-			"withdrawalInfo" : "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it.",
-			"hideOnDex" : true,
-			"rain" : {
-				"minimumTokens" : 10
+			"withdrawalInfo": "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it.",
+			"hideOnDex": true,
+			"rain": {
+				"minimumTokens": 10
 			}
 		},
-    "zeus": {
-            "ticker": "ZEUS",
-            "name": "Zeus",
-            "mainnet-contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
-            "testnet-contract": "0x6A8094D90177bC60c30A8B895bce616Be7496427",
-            "contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
-            "info": "https://t.me/ZeusCrowdfundingOfficial",
-			"ethOnly" : true,
-            "minimumWithdrawalCharge": 200000,
-            "maximumWithdrawalCharge": 600000,
-            "decimals": 18,
-            "games": {
-                "dice": {
-                    "houseFee": 3,
-                    "minTokens": 1000,
-                    "maxTokens": 10000,
-                    "name": "ZeusDice"
-                }
-            },
-			"rain" : {
-				"minimumTokens" : 10
+		"zeus": {
+			"ticker": "ZEUS",
+			"name": "Zeus",
+			"mainnet-contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
+			"testnet-contract": "0x6A8094D90177bC60c30A8B895bce616Be7496427",
+			"contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
+			"info": "https://t.me/ZeusCrowdfundingOfficial",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 200000,
+			"maximumWithdrawalCharge": 600000,
+			"decimals": 18,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "ZeusDice"
+				}
+			},
+			"rain": {
+				"minimumTokens": 10
 			}
-        },
-        "pop": {
-            "ticker": "POP",
-            "name": "POP Network",
-            "mainnet-contract": "0x5d858bcd53e085920620549214a8b27ce2f04670",
-            "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-            "contract": "0x5d858bcd53e085920620549214a8b27ce2f04670",
-            "info": "https://t.me/popnetwork",
-			"ethOnly" : true,
-            "minimumWithdrawalCharge": 10000,
-            "maximumWithdrawalCharge": 20000,
-            "decimals": 18,
-            "games": {
-                "dice": {
-                    "houseFee": 3,
-                    "minTokens": 100,
-                    "maxTokens": 1000,
-                    "name": "PopDice"
-                }
-            }
-        },
+		},
+		"pop": {
+			"ticker": "POP",
+			"name": "POP Network",
+			"mainnet-contract": "0x5d858bcd53e085920620549214a8b27ce2f04670",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x5d858bcd53e085920620549214a8b27ce2f04670",
+			"info": "https://t.me/popnetwork",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 10000,
+			"maximumWithdrawalCharge": 20000,
+			"decimals": 18,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 100,
+					"maxTokens": 1000,
+					"name": "PopDice"
+				}
+			}
+		},
 		"tuck": {
-            "ticker": "TUCK",
-            "name": "Tuckermint",
-            "mainnet-contract": "0x8bde81dd5e30b058b71362b50fad06e3fdace640",
-            "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-            "contract": "0x8bde81dd5e30b058b71362b50fad06e3fdace640",
-            "info": "https://t.me/tuckermintchat",
-			"ethOnly" : true,
-            "minimumWithdrawalCharge": 300000,
-            "maximumWithdrawalCharge": 600000,
-            "decimals": 18,
-            "games": {
-                "dice": {
-                    "houseFee": 3,
-                    "minTokens": 1000,
-                    "maxTokens": 10000,
-                    "name": "TuckDice"
-                }
-            }
-        },
-        "0xbtc": {
-            "ticker": "0xBTC",
-            "name": "0xBitcoin",
-            "mainnet-contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
-            "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-            "contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
-            "info": "https://t.me/ZEROxBTC",
-			"ethOnly" : true,
-            "minimumWithdrawalCharge": 40,
-            "maximumWithdrawalCharge": 100,
-            "decimals": 8,
-            "games": {
-                "dice": {
-                    "houseFee": 2,
-                    "minTokens": 0.1,
-                    "maxTokens": 10,
-                    "name": "0xBtcDice"
-                }
+			"ticker": "TUCK",
+			"name": "Tuckermint",
+			"mainnet-contract": "0x8bde81dd5e30b058b71362b50fad06e3fdace640",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x8bde81dd5e30b058b71362b50fad06e3fdace640",
+			"info": "https://t.me/tuckermintchat",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 300000,
+			"maximumWithdrawalCharge": 600000,
+			"decimals": 18,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "TuckDice"
+				}
+			}
+		},
+		"0xbtc": {
+			"ticker": "0xBTC",
+			"name": "0xBitcoin",
+			"mainnet-contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
+			"info": "https://t.me/ZEROxBTC",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 40,
+			"maximumWithdrawalCharge": 100,
+			"decimals": 8,
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 0.1,
+					"maxTokens": 10,
+					"name": "0xBtcDice"
+				}
 			}
 		},
 		"angel": {
@@ -167,7 +167,7 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x6386db8bbb746b03ca96bb394b1dc3f7ed1c280c",
 			"info": "https://t.me/angeltoken01",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 200,
 			"maximumWithdrawalCharge": 1000,
 			"decimals": 18,
@@ -187,16 +187,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x834b93f19dfb9c1966b3e1f3528da944e607f2cf",
 			"info": "",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 100000000,
 			"maximumWithdrawalCharge": 100000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 100,
-					"maxTokens" : 10000,
-					"name" : "SamDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 100,
+					"maxTokens": 10000,
+					"name": "SamDice"
 				}
 			}
 		},
@@ -207,16 +207,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x2F8a2c9328CB0955EE363C4A7eA65974E1F55b03",
 			"info": "https://t.me/tribezcoin_id",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 100000000,
 			"maximumWithdrawalCharge": 100000000,
 			"decimals": 6,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 10,
-					"maxTokens" : 10000,
-					"name" : "TrizDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "TrizDice"
 				}
 			}
 		},
@@ -227,16 +227,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x398E616B74832f26FB342913E0d81FFfeF70fb71",
 			"info": "",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000000,
 			"maximumWithdrawalCharge": 1000000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 10,
-					"maxTokens" : 10000,
-					"name" : "RamboDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "RamboDice"
 				}
 			}
 		},
@@ -247,16 +247,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xb1d22dffb6c9bf70544116b3ce784454cf383577",
 			"info": "",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000000,
 			"maximumWithdrawalCharge": 1000000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 10,
-					"maxTokens" : 10000,
-					"name" : "LogicDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "LogicDice"
 				}
 			}
 		},
@@ -267,16 +267,16 @@
 			"testnet-contract": "0x70Ec7702ADA8530d8f7332f7f3700099553D772D",
 			"contract": "0x70Ec7702ADA8530d8f7332f7f3700099553D772D",
 			"info": "https://t.me/IDNProject_TOKEN",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 100000000,
 			"maximumWithdrawalCharge": 100000000,
 			"decimals": 8,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 10,
-					"maxTokens" : 10000,
-					"name" : "IDNDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "IDNDice"
 				}
 			}
 		},
@@ -287,19 +287,19 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x71590d4ed14d9cbacb2cff8abf919ac4d22c5b7b",
 			"info": "https://t.me/ASHToken",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000,
 			"maximumWithdrawalCharge": 1000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 1,
-					"maxTokens" : 10,
-					"name" : "AshDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 1,
+					"maxTokens": 10,
+					"name": "AshDice"
 				}
 			},
-			"safeGasAmount" : 300000
+			"safeGasAmount": 300000
 		},
 		"pixby": {
 			"ticker": "PIXBY",
@@ -308,16 +308,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xB53e08B97724126Bda6d237B94F766c0b81C90fE",
 			"info": "https://t.me/pixbytoken",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000,
 			"maximumWithdrawalCharge": 1000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 10,
-					"maxTokens" : 10000,
-					"name" : "PIXBYDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "PIXBYDice"
 				}
 			}
 		},
@@ -328,16 +328,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x9E12c837159deDc233719EDf5A4eC2405644E8a7",
 			"info": "https://t.me/nuklear_official",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000,
 			"maximumWithdrawalCharge": 1000000,
 			"decimals": 3,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 1,
-					"maxTokens" : 20,
-					"name" : "NukDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 1,
+					"maxTokens": 20,
+					"name": "NukDice"
 				}
 			}
 		},
@@ -348,16 +348,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x515669d308f887fd83a471c7764f5d084886d34d",
 			"info": "https://t.me/muxebv",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000,
 			"maximumWithdrawalCharge": 1000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 100,
-					"maxTokens" : 20000,
-					"name" : "MuxeDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 100,
+					"maxTokens": 20000,
+					"name": "MuxeDice"
 				}
 			}
 		},
@@ -368,16 +368,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xd907daeed4dae963b0e2442e330d1760d752a68e",
 			"info": "https://t.me/seedoflovetoken",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 1855000000,
 			"maximumWithdrawalCharge": 1855000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 2,
-					"minTokens" : 100,
-					"maxTokens" : 20000,
-					"name" : "SeolDice"
+			"games": {
+				"dice": {
+					"houseFee": 2,
+					"minTokens": 100,
+					"maxTokens": 20000,
+					"name": "SeolDice"
 				}
 			}
 		},
@@ -388,16 +388,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x512630DC263FD4c71DBe81Fec68cF61156d79E80",
 			"info": "https://t.me/worldwidetradeWWT",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 10,
-					"maxTokens" : 2000,
-					"name" : "WWTDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 2000,
+					"name": "WWTDice"
 				}
 			}
 		},
@@ -408,16 +408,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x6f4bea736cc51f6dcfdead130aa3acc9551f6421",
 			"info": "https://t.me/lotanchain",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 8,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 10,
-					"maxTokens" : 2000,
-					"name" : "LotanDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 2000,
+					"name": "LotanDice"
 				}
 			}
 		},
@@ -428,16 +428,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xcf8335727b776d190f9d15a54e6b9b9348439eee",
 			"info": "https://t.me/whackdtokens",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 1,
-					"maxTokens" : 20,
-					"name" : "WhackDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 20,
+					"name": "WhackDice"
 				}
 			}
 		},
@@ -448,16 +448,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x9f9a0e0747a18426fd29f4a76820c808da3b140b",
 			"info": "https://t.me/ETHBOLD_Official",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 1,
-					"maxTokens" : 20,
-					"name" : "EthBoldDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 20,
+					"name": "EthBoldDice"
 				}
 			}
 		},
@@ -468,16 +468,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
 			"info": "https://t.me/BoldDax",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 1,
-					"maxTokens" : 20,
-					"name" : "BoldDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 20,
+					"name": "BoldDice"
 				}
 			}
 		},
@@ -488,16 +488,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x4ec2efb9cbd374786a03261e46ffce1a67756f3b",
 			"info": "https://t.me/deflacoin",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 1,
-					"maxTokens" : 20,
-					"name" : "DefDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 20,
+					"name": "DefDice"
 				}
 			}
 		},
@@ -508,16 +508,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
 			"info": "https://t.me/ArchCryptonGroup",
-			"ethOnly" : true,
-			"events" : false,
+			"ethOnly": true,
+			"events": false,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 0.001,
 			"maximumWithdrawal": 1000,
 			"decimals": 18,
-			"hideOnDex" : true,
-			"safeGasAmount" : 500000,
-			"withdrawalInfo" : "ARCG will be delisted from the bot shortly due to Telegram account loss by ARCG team. Please withdraw your ARCG if you wish to keep your tokens."
+			"hideOnDex": true,
+			"safeGasAmount": 500000,
+			"withdrawalInfo": "ARCG will be delisted from the bot shortly due to Telegram account loss by ARCG team. Please withdraw your ARCG if you wish to keep your tokens."
 		},
 		"scn": {
 			"ticker": "SCN",
@@ -526,16 +526,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x8a65ab17324c155fAc3e46aD33e9553d9165a252",
 			"info": "https://t.me/Silvercoin_Group",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 8,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 10,
-					"maxTokens" : 2000,
-					"name" : "SilverDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 2000,
+					"name": "SilverDice"
 				}
 			}
 		},
@@ -546,19 +546,19 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x7096065160ee2775242b7ac0af97102b0e9e9994",
 			"info": "https://t.me/bitphantomio",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 0.1,
-					"maxTokens" : 10,
-					"name" : "PhantomDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 0.1,
+					"maxTokens": 10,
+					"name": "PhantomDice"
 				}
 			},
-			"hideOnDex" : true
+			"hideOnDex": true
 		},
 		"mtcx": {
 			"ticker": "MTCX",
@@ -567,16 +567,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
 			"info": "https://t.me/mythicalxgroup",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 0.1,
-					"maxTokens" : 10,
-					"name" : "MythicDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 0.1,
+					"maxTokens": 10,
+					"name": "MythicDice"
 				}
 			}
 		},
@@ -587,16 +587,16 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x5fea39e08561caef6bd94cdaa48ef002111de741",
 			"info": "https://t.me/sitcoinofficial",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 18,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 0.1,
-					"maxTokens" : 10,
-					"name" : "SitDice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 0.1,
+					"maxTokens": 10,
+					"name": "SitDice"
 				}
 			}
 		},
@@ -607,42 +607,41 @@
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x47af9fd69adc231e674140c81811a640dd92dc51",
 			"info": "https://t.me/mobaproject",
-			"ethOnly" : true,
+			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 8,
-			"games" : {
-				"dice" : {
-					"houseFee" : 3,
-					"minTokens" : 10,
-					"maxTokens" : 1000,
-					"name" : "Mobadice"
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 1000,
+					"name": "Mobadice"
 				}
 			}
 		},
-	    	"xdb": {
-            		"ticker": "XDB",
-            		"name": "DigitalBits",
-            		"mainnet-contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
-            		"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-            		"contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
-            		"info": "https://t.me/digitalbitstrading",
+		"xdb": {
+			"ticker": "XDB",
+			"name": "DigitalBits",
+			"mainnet-contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
+			"info": "https://t.me/digitalbitstrading",
 			"ethOnly": true,
-            		"minimumWithdrawalCharge": 1000000,
-            		"maximumWithdrawalCharge": 1000000,
-            		"decimals": 7,
-            		"games" : {
-                		"dice": {
-                    			"houseFee": 3,
-                    			"minTokens": 10,
-                    			"maxTokens": 100,
-                    			"name": "XDBDice"
-                		}
-           		 },
-				"rain": {
-					"minimumTokens" : 10
+			"minimumWithdrawalCharge": 1000000,
+			"maximumWithdrawalCharge": 1000000,
+			"decimals": 7,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 100,
+					"name": "XDBDice"
 				}
-	        	}
-		}	
+			},
+			"rain": {
+				"minimumTokens": 10
+			}
+		}
 	}
 }
