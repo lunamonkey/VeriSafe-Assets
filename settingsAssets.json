@@ -634,13 +634,13 @@
 			"games": {
 				"dice": {
 					"houseFee": 3,
-					"minTokens": 10,
-					"maxTokens": 100,
+					"minTokens": 0.1,
+					"maxTokens": 10,
 					"name": "XDBDice"
 				}
 			},
 			"rain": {
-				"minimumTokens": 10
+				"minimumTokens": 0.1
 			}
 		}
 	}
