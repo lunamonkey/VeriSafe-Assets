@@ -299,7 +299,7 @@
 					"name": "AshDice"
 				}
 			},
-			"safeGasAmount": 300000
+			"safeGasAmount": 800000
 		},
 		"pixby": {
 			"ticker": "PIXBY",
