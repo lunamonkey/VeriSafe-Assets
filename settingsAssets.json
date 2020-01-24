@@ -58,6 +58,9 @@
 			"rules" : {
 				"rain": {
 					"minTokens": 10
+				},
+				"tip" : {
+					"minTokens" : 10
 				}
 			}
 		},
@@ -81,6 +84,9 @@
 			"rules" : {
 				"rain": {
 					"minTokens": 10
+				},
+				"tip" : {
+					"minTokens" : 10
 				}
 			}
 		},
@@ -419,6 +425,9 @@
 			"rules" : {
 				"rain": {
 					"minTokens": 10
+				},
+				"tip" : {
+					"minTokens" : 10
 				}
 			}
 		},
@@ -480,6 +489,14 @@
 					"minTokens": 1,
 					"maxTokens": 20,
 					"name": "EthBoldDice"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				},
+				"tip" : {
+					"minTokens" : 10
 				}
 			}
 		},
