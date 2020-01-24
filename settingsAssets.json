@@ -646,6 +646,9 @@
 				"rain": {
 					"minTokens": 0.1
 				}
+			},
+			"rain": {
+				"minimumTokens": 0.1
 			}
 		},
 		"xdb": {
