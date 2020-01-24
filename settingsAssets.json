@@ -3,6 +3,7 @@
 		"eth": {
 			"ticker": "ETH",
 			"name": "Ether",
+			"coinGeckoId" : "ethereum",
 			"minimumWithdrawalCharge": 0.0005,
 			"standardWithdrawalCharge": 0.0015,
 			"maximumWithdrawalCharge": 0.003,
@@ -152,7 +153,7 @@
 		"0xbtc": {
 			"ticker": "0xBTC",
 			"name": "0xBitcoin",
-			"coinGeckoId" : "0xbitcoin",
+			"coinGeckoId" : "oxbitcoin",
 			"mainnet-contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
