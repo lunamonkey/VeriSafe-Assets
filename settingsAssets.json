@@ -611,13 +611,16 @@
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"decimals": 8,
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 10,
-					"maxTokens": 1000,
-					"name": "Mobadice"
+			"games" : {
+				"dice" : {
+					"houseFee" : 3,
+					"minTokens" : 10,
+					"maxTokens" : 1000,
+					"name" : "Mobadice"
 				}
+			},
+			"rain": {
+				"minimumTokens": 0.1
 			}
 		},
 		"xdb": {
@@ -637,6 +640,15 @@
 					"minTokens": 0.1,
 					"maxTokens": 10,
 					"name": "XDBDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 20,
+					"maxTokens": 2000,
+					"name": "XDBFight"
+				},
+				"tip" : {
+					"minTokens" : 10
 				}
 			},
 			"rain": {
