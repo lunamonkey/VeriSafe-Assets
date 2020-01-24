@@ -24,7 +24,7 @@ Example formatting:
 	"maximumWithdrawal": 100000000000,
 	"decimals": 18,
 	"safeGasAmount": 100000,
-	"withdrawalInfo": "".
+	"withdrawalInfo": "",
 	"games": {
 		"dice": {
 			"houseFee": 3,
