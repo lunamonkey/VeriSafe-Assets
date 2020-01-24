@@ -77,8 +77,10 @@
 			"decimals": 18,
 			"withdrawalInfo": "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it.",
 			"hideOnDex": true,
-			"rain": {
-				"minTokens": 10
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				}
 			}
 		},
 		"zeus": {
