@@ -19,6 +19,7 @@
 		"vsf": {
 			"ticker": "VSF",
 			"name": "VeriSafe",
+			"coinGeckoId" : "verisafe",
 			"mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
 			"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
 			"contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
@@ -62,6 +63,7 @@
 		"vsfx": {
 			"ticker": "VSFx",
 			"name": "VSFx (Promo VSF)",
+			"coinGeckoId" : "verisafe",
 			"mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
@@ -82,6 +84,7 @@
 		"zeus": {
 			"ticker": "ZEUS",
 			"name": "Zeus",
+			"coinGeckoId" : "zuescrowdfunding",
 			"mainnet-contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
 			"testnet-contract": "0x6A8094D90177bC60c30A8B895bce616Be7496427",
 			"contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
@@ -147,6 +150,7 @@
 		"0xbtc": {
 			"ticker": "0xBTC",
 			"name": "0xBitcoin",
+			"coinGeckoId" : "0xbitcoin",
 			"mainnet-contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31",
@@ -267,6 +271,7 @@
 		"idn": {
 			"ticker": "IDN",
 			"name": "Indonesian Project",
+			"coinGeckoId" : "indonesian-project",
 			"mainnet-contract": "0x70Ec7702ADA8530d8f7332f7f3700099553D772D",
 			"testnet-contract": "0x70Ec7702ADA8530d8f7332f7f3700099553D772D",
 			"contract": "0x70Ec7702ADA8530d8f7332f7f3700099553D772D",
@@ -287,6 +292,7 @@
 		"ash": {
 			"ticker": "ASH",
 			"name": "Ash",
+			"coinGeckoId" : "ash",
 			"mainnet-contract": "0x71590d4ed14d9cbacb2cff8abf919ac4d22c5b7b",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x71590d4ed14d9cbacb2cff8abf919ac4d22c5b7b",
@@ -328,6 +334,7 @@
 		"nuk": {
 			"ticker": "NUK",
 			"name": "NUKlear",
+			"coinGeckoId" : "nuklear",
 			"mainnet-contract": "0x9E12c837159deDc233719EDf5A4eC2405644E8a7",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x9E12c837159deDc233719EDf5A4eC2405644E8a7",
@@ -348,6 +355,7 @@
 		"muxe": {
 			"ticker": "MUXE",
 			"name": "MUXE Token",
+			"coinGeckoId" : "muxe",
 			"mainnet-contract": "0x515669d308f887fd83a471c7764f5d084886d34d",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x515669d308f887fd83a471c7764f5d084886d34d",
@@ -368,6 +376,7 @@
 		"seol": {
 			"ticker": "SEOL",
 			"name": "SEEDOFLOVE",
+			"coinGeckoId" : "seed-of-love",
 			"mainnet-contract": "0xd907daeed4dae963b0e2442e330d1760d752a68e",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xd907daeed4dae963b0e2442e330d1760d752a68e",
@@ -453,6 +462,7 @@
 		"ethbold": {
 			"ticker": "ETHBOLD",
 			"name": "ETHBOLD",
+			"coinGeckoId" : "ethbold",
 			"mainnet-contract": "0x9f9a0e0747a18426fd29f4a76820c808da3b140b",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x9f9a0e0747a18426fd29f4a76820c808da3b140b",
@@ -493,6 +503,7 @@
 		"defl": {
 			"ticker": "DEFL",
 			"name": "Deflacoin",
+			"coinGeckoId" : "deflacoin",
 			"mainnet-contract": "0x4ec2efb9cbd374786a03261e46ffce1a67756f3b",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x4ec2efb9cbd374786a03261e46ffce1a67756f3b",
@@ -513,6 +524,7 @@
 		"arcg": {
 			"ticker": "ARCG",
 			"name": "Arch Crypton Game",
+			"coinGeckoId" : "arch-crypton-game",
 			"mainnet-contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
@@ -572,6 +584,7 @@
 		"mtcx": {
 			"ticker": "MTCX",
 			"name": "MYTHIC",
+			"coinGeckoId" : "mythic",
 			"mainnet-contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
@@ -612,6 +625,7 @@
 		"mbc": {
 			"ticker": "MBC",
 			"name": "MobaCoin",
+			"coinGeckoId" : "mobacoin",
 			"mainnet-contract": "0x47af9fd69adc231e674140c81811a640dd92dc51",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x47af9fd69adc231e674140c81811a640dd92dc51",
@@ -637,6 +651,7 @@
 		"xdb": {
 			"ticker": "XDB",
 			"name": "DigitalBits",
+			"coinGeckoId" : "digitalbits",
 			"mainnet-contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
