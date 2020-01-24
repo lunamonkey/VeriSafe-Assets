@@ -13,21 +13,37 @@ Example formatting:
 "ticker": {
 	"ticker": "TICKER",
 	"name": "Token Name",
-	"mainnet-contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
-	"testnet-contract": "0x6A8094D90177bC60c30A8B895bce616Be7496427",
+	"mainnet-contract": "Duplicate - ignore this",
+	"testnet-contract": "supply kovan testnet if possible",
 	"contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
 	"info": "https://t.me/YourCommunity",
 	"ethOnly" : true,
 	"minimumWithdrawalCharge": 200000,
 	"maximumWithdrawalCharge": 600000,
+	"minimumWithdrawal": 1,
+	"maximumWithdrawal": 100000000000,
 	"decimals": 18,
+	"safeGasAmount": 100000,
+	"withdrawalInfo": "".
 	"games": {
 		"dice": {
 			"houseFee": 3,
-			"minTokens": 1000,
-			"maxTokens": 10000,
-			"name": "ZeusDice"
+			"minTokens": 0.1,
+			"maxTokens": 10,
+			"name": "TokenDice"
+		},
+		"fight": {
+			"houseFee": 3,
+			"minTokens": 20,
+			"maxTokens": 2000,
+			"name": "TokenFight"
+		},
+		"tip" : {
+			"minTokens" : 10
 		}
+	},
+	"rain": {
+		"minimumTokens": 0.1
 	}
 },
 ```
