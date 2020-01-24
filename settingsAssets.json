@@ -53,8 +53,10 @@
 					"name": "VeriSpin"
 				}
 			},
-			"rain": {
-				"minimumTokens": 10
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				}
 			}
 		},
 		"vsfx": {
@@ -74,7 +76,7 @@
 			"withdrawalInfo": "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw (using Ether) it if you wish to keep it.",
 			"hideOnDex": true,
 			"rain": {
-				"minimumTokens": 10
+				"minTokens": 10
 			}
 		},
 		"zeus": {
@@ -96,8 +98,10 @@
 					"name": "ZeusDice"
 				}
 			},
-			"rain": {
-				"minimumTokens": 10
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				}
 			}
 		},
 		"pop": {
@@ -399,6 +403,11 @@
 					"maxTokens": 2000,
 					"name": "WWTDice"
 				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				}
 			}
 		},
 		"ltn": {
@@ -619,8 +628,10 @@
 					"name" : "Mobadice"
 				}
 			},
-			"rain": {
-				"minimumTokens": 0.1
+			"rules" : {
+				"rain": {
+					"minTokens": 0.1
+				}
 			}
 		},
 		"xdb": {
@@ -646,13 +657,15 @@
 					"minTokens": 20,
 					"maxTokens": 2000,
 					"name": "XDBFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 0.1
 				},
 				"tip" : {
 					"minTokens" : 10
 				}
-			},
-			"rain": {
-				"minimumTokens": 0.1
 			}
 		}
 	}

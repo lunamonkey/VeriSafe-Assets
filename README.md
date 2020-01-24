@@ -37,13 +37,15 @@ Example formatting:
 			"minTokens": 20,
 			"maxTokens": 2000,
 			"name": "TokenFight"
-		},
+		}
+	},
+	"rules" : {
 		"tip" : {
 			"minTokens" : 10
 		}
-	},
-	"rain": {
-		"minimumTokens": 0.1
+		"rain": {
+			"minTokens": 0.1
+		}
 	}
 },
 ```
