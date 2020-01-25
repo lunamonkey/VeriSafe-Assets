@@ -424,10 +424,10 @@
 			},
 			"rules" : {
 				"rain": {
-					"minTokens": 10
+					"minTokens": 1
 				},
 				"tip" : {
-					"minTokens" : 10
+					"minTokens" : 1
 				}
 			}
 		},
@@ -493,10 +493,10 @@
 			},
 			"rules" : {
 				"rain": {
-					"minTokens": 10
+					"minTokens": 0.1
 				},
 				"tip" : {
-					"minTokens" : 10
+					"minTokens" : 0.1
 				}
 			}
 		},
