@@ -7,7 +7,15 @@
 			"minimumWithdrawalCharge": 0.0005,
 			"standardWithdrawalCharge": 0.0015,
 			"maximumWithdrawalCharge": 0.003,
-			"decimals": 18
+			"decimals": 18,
+			"rules" : {
+				"rain": {
+					"minTokens": 0.00001
+				},
+				"tip" : {
+					"minTokens" : 0.00001
+				}
+			}
 		},
 		"btc": {
 			"ticker": "BTC",
@@ -717,7 +725,7 @@
 			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000,
 			"maximumWithdrawalCharge": 1000000,
-			"decimals": 7,
+			"decimals": 8,
 			"games": {
 				"dice": {
 					"houseFee": 3,
@@ -730,6 +738,40 @@
 					"minTokens": 1,
 					"maxTokens": 2000,
 					"name": "GenFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 0.1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
+		},
+		"nxc": {
+			"ticker": "NXC",
+			"name": "Nixma Coin",
+			"mainnet-contract": "0x93Ec2b9D85a7F4b0Abc66abf4CA8d5E50C355516",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x93Ec2b9D85a7F4b0Abc66abf4CA8d5E50C355516",
+			"info": "http://t.me/nixma_game",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 1000000,
+			"maximumWithdrawalCharge": 1000000,
+			"decimals": 18,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 0.1,
+					"maxTokens": 10,
+					"name": "NixDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "NixFight"
 				}
 			},
 			"rules" : {
