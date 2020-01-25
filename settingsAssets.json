@@ -57,10 +57,10 @@
 			},
 			"rules" : {
 				"rain": {
-					"minTokens": 10
+					"minTokens": 1
 				},
 				"tip" : {
-					"minTokens" : 10
+					"minTokens" : 1
 				}
 			}
 		},
@@ -83,10 +83,10 @@
 			"hideOnDex": true,
 			"rules" : {
 				"rain": {
-					"minTokens": 10
+					"minTokens": 1
 				},
 				"tip" : {
-					"minTokens" : 10
+					"minTokens" : 1
 				}
 			}
 		},
@@ -703,6 +703,41 @@
 				},
 				"tip" : {
 					"minTokens" : 10
+				}
+			}
+		},
+		"gen": {
+			"ticker": "GEN",
+			"name": "Genesis",
+			"coinGeckoId" : "genesis-coin",
+			"mainnet-contract": "0x334425ef9a828e31ff27e0754a3198edb714c57b",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x334425ef9a828e31ff27e0754a3198edb714c57b",
+			"info": "https://t.me/Genesis_en",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 1000000,
+			"maximumWithdrawalCharge": 1000000,
+			"decimals": 7,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 0.1,
+					"maxTokens": 10,
+					"name": "GenDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "GenFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 0.1
+				},
+				"tip" : {
+					"minTokens" : 1
 				}
 			}
 		}
