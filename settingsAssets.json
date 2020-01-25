@@ -124,46 +124,6 @@
 				}
 			}
 		},
-		"pop": {
-			"ticker": "POP",
-			"name": "POP Network",
-			"mainnet-contract": "0x5d858bcd53e085920620549214a8b27ce2f04670",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x5d858bcd53e085920620549214a8b27ce2f04670",
-			"info": "https://t.me/popnetwork",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 10000,
-			"maximumWithdrawalCharge": 20000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 100,
-					"maxTokens": 1000,
-					"name": "PopDice"
-				}
-			}
-		},
-		"tuck": {
-			"ticker": "TUCK",
-			"name": "Tuckermint",
-			"mainnet-contract": "0x8bde81dd5e30b058b71362b50fad06e3fdace640",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x8bde81dd5e30b058b71362b50fad06e3fdace640",
-			"info": "https://t.me/tuckermintchat",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 300000,
-			"maximumWithdrawalCharge": 600000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 1000,
-					"maxTokens": 10000,
-					"name": "TuckDice"
-				}
-			}
-		},
 		"0xbtc": {
 			"ticker": "0xBTC",
 			"name": "0xBitcoin",
@@ -182,106 +142,6 @@
 					"minTokens": 0.1,
 					"maxTokens": 10,
 					"name": "0xBtcDice"
-				}
-			}
-		},
-		"angel": {
-			"ticker": "ANGEL",
-			"name": "ANGEL Token",
-			"mainnet-contract": "0x6386db8bbb746b03ca96bb394b1dc3f7ed1c280c",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x6386db8bbb746b03ca96bb394b1dc3f7ed1c280c",
-			"info": "https://t.me/angeltoken01",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 200,
-			"maximumWithdrawalCharge": 1000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 0.1,
-					"maxTokens": 5,
-					"name": "ANGELDice"
-				}
-			}
-		},
-		"sam": {
-			"ticker": "SAM",
-			"name": "Sambam",
-			"mainnet-contract": "0x834b93f19dfb9c1966b3e1f3528da944e607f2cf",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x834b93f19dfb9c1966b3e1f3528da944e607f2cf",
-			"info": "",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 100000000,
-			"maximumWithdrawalCharge": 100000000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 100,
-					"maxTokens": 10000,
-					"name": "SamDice"
-				}
-			}
-		},
-		"triz": {
-			"ticker": "TRIZ",
-			"name": "Tribezcoin",
-			"mainnet-contract": "0x2F8a2c9328CB0955EE363C4A7eA65974E1F55b03",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x2F8a2c9328CB0955EE363C4A7eA65974E1F55b03",
-			"info": "https://t.me/tribezcoin_id",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 100000000,
-			"maximumWithdrawalCharge": 100000000,
-			"decimals": 6,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 10,
-					"maxTokens": 10000,
-					"name": "TrizDice"
-				}
-			}
-		},
-		"rbc": {
-			"ticker": "RBC",
-			"name": "Rambocoin",
-			"mainnet-contract": "0x398E616B74832f26FB342913E0d81FFfeF70fb71",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x398E616B74832f26FB342913E0d81FFfeF70fb71",
-			"info": "",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 1000000000,
-			"maximumWithdrawalCharge": 1000000000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 10,
-					"maxTokens": 10000,
-					"name": "RamboDice"
-				}
-			}
-		},
-		"ldex": {
-			"ticker": "LDEX",
-			"name": "LogicDEX Token",
-			"mainnet-contract": "0xb1d22dffb6c9bf70544116b3ce784454cf383577",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0xb1d22dffb6c9bf70544116b3ce784454cf383577",
-			"info": "",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 1000000000,
-			"maximumWithdrawalCharge": 1000000000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 10,
-					"maxTokens": 10000,
-					"name": "LogicDice"
 				}
 			}
 		},
@@ -345,27 +205,6 @@
 					"minTokens": 10,
 					"maxTokens": 10000,
 					"name": "PIXBYDice"
-				}
-			}
-		},
-		"nuk": {
-			"ticker": "NUK",
-			"name": "NUKlear",
-			"coinGeckoId" : "nuklear",
-			"mainnet-contract": "0x9E12c837159deDc233719EDf5A4eC2405644E8a7",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x9E12c837159deDc233719EDf5A4eC2405644E8a7",
-			"info": "https://t.me/nuklear_official",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 1000000,
-			"maximumWithdrawalCharge": 1000000,
-			"decimals": 3,
-			"games": {
-				"dice": {
-					"houseFee": 2,
-					"minTokens": 1,
-					"maxTokens": 20,
-					"name": "NukDice"
 				}
 			}
 		},
@@ -548,25 +387,6 @@
 					"name": "DefDice"
 				}
 			}
-		},
-		"arcg": {
-			"ticker": "ARCG",
-			"name": "Arch Crypton Game",
-			"coinGeckoId" : "arch-crypton-game",
-			"mainnet-contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
-			"info": "https://t.me/ArchCryptonGroup",
-			"ethOnly": true,
-			"events": false,
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"minimumWithdrawal": 0.001,
-			"maximumWithdrawal": 1000,
-			"decimals": 18,
-			"hideOnDex": true,
-			"safeGasAmount": 500000,
-			"withdrawalInfo": "ARCG will be delisted from the bot shortly due to Telegram account loss by ARCG team. Please withdraw your ARCG if you wish to keep your tokens."
 		},
 		"scn": {
 			"ticker": "SCN",
