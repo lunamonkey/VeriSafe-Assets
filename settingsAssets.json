@@ -602,6 +602,41 @@
 					"minTokens" : 1
 				}
 			}
+		},
+		"sava": {
+			"ticker": "SAVA",
+			"name": "Sava International",
+			"coinGeckoId" : "sava-international",
+			"mainnet-contract": "0x73f142e90636b4e063cfa80b02e4877484fe464e",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x73f142e90636b4e063cfa80b02e4877484fe464e",
+			"info": "https://t.me/savacegroup",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 1000000,
+			"maximumWithdrawalCharge": 1000000,
+			"decimals": 18,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "NixDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "NixFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
 		}
 	}
 }
