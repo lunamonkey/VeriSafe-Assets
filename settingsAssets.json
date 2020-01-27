@@ -618,19 +618,19 @@
 			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000,
 			"maximumWithdrawalCharge": 1000000,
-			"decimals": 18,
+			"decimals": 8,
 			"games": {
 				"dice": {
 					"houseFee": 3,
 					"minTokens": 1,
 					"maxTokens": 50,
-					"name": "NixDice"
+					"name": "SAVADice"
 				},
 				"fight": {
 					"houseFee": 3,
 					"minTokens": 1,
 					"maxTokens": 2000,
-					"name": "NixFight"
+					"name": "SAVAFight"
 				}
 			},
 			"rules" : {
