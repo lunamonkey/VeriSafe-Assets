@@ -440,6 +440,10 @@
 			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
+
+"minimumWithdrawal": 1,
+			"maximumWithdrawal": 300,
+
 			"decimals": 18,
 			"games": {
 				"dice": {
