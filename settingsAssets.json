@@ -440,11 +440,10 @@
 			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
-
-"minimumWithdrawal": 1,
+			"minimumWithdrawal": 1,
 			"maximumWithdrawal": 300,
-
 			"decimals": 18,
+			"withdrawalInfo": "All MTCX (old version) must be withdrawn from the bot before February 14th 2020. You must withdraw (using Ether) it if you wish to keep it. It will not be swapped automatically to MTCX2.",
 			"games": {
 				"dice": {
 					"houseFee": 3,
@@ -465,7 +464,10 @@
 			"ethOnly": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 0.001,
+			"maximumWithdrawal": 30,
 			"decimals": 18,
+			"withdrawalInfo": "This is the new MTCX2 and does not need to be swapped.",
 			"games": {
 				"dice": {
 					"houseFee": 3,
