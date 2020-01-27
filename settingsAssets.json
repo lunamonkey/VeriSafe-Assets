@@ -450,6 +450,27 @@
 				}
 			}
 		},
+		"mtcx2": {
+			"ticker": "MTCX2",
+			"name": "MYTHIC",
+			"coinGeckoId" : "mythic",
+			"mainnet-contract": "0x2976cfd34e41fa6d5ec96d6c1b738ef0b582098e",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x2976cfd34e41fa6d5ec96d6c1b738ef0b582098e",
+			"info": "https://t.me/mythicalxgroup",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"decimals": 18,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 0.01,
+					"maxTokens": 5,
+					"name": "MythicDice"
+				}
+			}
+		},
 		"sit": {
 			"ticker": "SIT",
 			"name": "SitKoin",
