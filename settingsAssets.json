@@ -523,7 +523,7 @@
 				}
 			},
 			"rain": {
-				"minimumTokens": 0.1
+				"minimumTokens": 1
 			}
 		},
 		"xdb": {
@@ -654,6 +654,41 @@
 					"minTokens": 1,
 					"maxTokens": 2000,
 					"name": "SAVAFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
+		},
+		"bstc": {
+			"ticker": "BSTC",
+			"name": "BUSINESS TICKER COIN",
+			"coinGeckoId" : "business-ticker-coin",
+			"mainnet-contract": "0x77edd08fa155bce573a6a8c015db188152584572",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x77edd08fa155bce573a6a8c015db188152584572",
+			"info": "https://t.me/BusinesstickerGlobal",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 1000000,
+			"maximumWithdrawalCharge": 1000000,
+			"decimals": 10,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "BSTCDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "BSTCFight"
 				}
 			},
 			"rules" : {
