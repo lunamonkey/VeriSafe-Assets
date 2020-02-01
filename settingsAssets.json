@@ -699,6 +699,40 @@
 					"minTokens" : 1
 				}
 			}
+		},
+		"dsc": {
+			"ticker": "DSC",
+			"name": "DOGESTABLECOINTOKEN",
+			"mainnet-contract": "0x3b3ad8a4acb7d0dcdf9f9d82e603c1cc5bb9408b",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x3b3ad8a4acb7d0dcdf9f9d82e603c1cc5bb9408b",
+			"info": "https://t.me/dogedsc",
+			"ethOnly": true,
+			"minimumWithdrawalCharge": 1000000,
+			"maximumWithdrawalCharge": 1000000,
+			"decimals": 10,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "DSCDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "DSCFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
 		}
 	}
 }
