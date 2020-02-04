@@ -253,6 +253,7 @@
 		"wwt": {
 			"ticker": "WWT",
 			"name": "World Wide Trade",
+"CoinGeckoId":"worldwidetrade",
 			"mainnet-contract": "0x512630DC263FD4c71DBe81Fec68cF61156d79E80",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x512630DC263FD4c71DBe81Fec68cF61156d79E80",
