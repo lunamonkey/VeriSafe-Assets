@@ -734,6 +734,25 @@
 					"minTokens" : 1
 				}
 			}
-		}
+		},
+		"arcg": {
+			"ticker": "ARCG",
+			"name": "Arch Crypton Game",
+			"coinGeckoId" : "arch-crypton-game",
+			"mainnet-contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
+			"info": "https://t.me/ArchCryptonGroup",
+			"ethOnly": true,
+			"events": false,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 0.001,
+			"maximumWithdrawal": 1000,
+			"decimals": 18,
+			"hideOnDex": true,
+			"safeGasAmount": 500000,
+			"withdrawalInfo": "07/02/2020: ARCG has been relisted."
+		},
 	}
 }
