@@ -21,7 +21,7 @@
 		"btc": {
 			"ticker": "BTC",
 			"name": "BitCoin (not functional)",
-			"customEmoji" : "💵",
+			"customEmoji" : "₿",
 			"decimals": 8,
 			"withdrawFee": 0.01
 		}
@@ -432,7 +432,7 @@
 		"scn": {
 			"ticker": "SCN",
 			"name": "Silver Coin",
-			"customEmoji" : "🪙",
+			"customEmoji" : "⚪️",
 			"mainnet-contract": "0x8a65ab17324c155fAc3e46aD33e9553d9165a252",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x8a65ab17324c155fAc3e46aD33e9553d9165a252",
