@@ -208,7 +208,7 @@
 			"ethOnly": true,
 			"minimumWithdrawalCharge": 1000000,
 			"maximumWithdrawalCharge": 1000000,
-			"decimals": 18,
+			"decimals": 0,
 			"games": {
 				"dice": {
 					"houseFee": 2,
