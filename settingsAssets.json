@@ -797,7 +797,7 @@
 			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
 			"info": "https://t.me/ArchCryptonGroup",
 			"ethOnly": true,
-			"events": false,
+			
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 0.001,
