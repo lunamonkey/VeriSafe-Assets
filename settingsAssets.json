@@ -797,7 +797,6 @@
 			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
 			"info": "https://t.me/ArchCryptonGroup",
 			"ethOnly": true,
-			"events": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 0.001,
@@ -805,7 +804,29 @@
 			"decimals": 18,
 			"hideOnDex": true,
 			"safeGasAmount": 500000,
-			"withdrawalInfo": "07/02/2020: ARCG has been relisted."
+			"withdrawalInfo": "07/02/2020: ARCG has been relisted.",
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "ARCGDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "ARCGFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
 		},
 		"XRB": {
 			"ticker": "XRB",
@@ -824,7 +845,29 @@
 			"maximumWithdrawal": 1000,
 			"decimals": 8,
 			"hideOnDex": true,
-			"safeGasAmount": 100000
+			"safeGasAmount": 100000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "ARCGDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "ARCGFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
 		}
 	}
 }
