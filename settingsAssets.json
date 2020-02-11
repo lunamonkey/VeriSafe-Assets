@@ -828,7 +828,7 @@
 				}
 			}
 		},
-		"XRB": {
+		"xrb": {
 			"ticker": "XRB",
 			"name": "Rainbow",
 			"coinGeckoId" : "rainbow",
