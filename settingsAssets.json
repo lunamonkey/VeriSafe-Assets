@@ -831,7 +831,7 @@
 		"XRB": {
 			"ticker": "XRB",
 			"name": "Rainbow",
-			"coinGeckoId" : "Rainbow",
+			"coinGeckoId" : "rainbow",
 			"customEmoji" : "🌈",
 			"mainnet-contract": "0x0e3abf45855fbaa1afcc3b33cf08b3915bdcda96",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
