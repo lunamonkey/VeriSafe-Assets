@@ -869,7 +869,7 @@
 				}
 			}
 		},
-		"tfr": {
+		"trf": {
 			"ticker": "TRF",
 			"name": "Trifolium Coin",
 			"coinGeckoId" : "trifolium-coin",
