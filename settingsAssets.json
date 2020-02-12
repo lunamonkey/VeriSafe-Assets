@@ -7,7 +7,7 @@
 			"customEmoji" : "♦",
 			"minimumWithdrawalCharge": 0.0005,
 			"standardWithdrawalCharge": 0.0015,
-			"maximumWithdrawalCharge": 0.003,
+			"maximumWithdrawalCharge": 0.01,
 			"decimals": 18,
 			"rules" : {
 				"rain": {
@@ -828,7 +828,7 @@
 				}
 			}
 		},
-		"XRB": {
+		"xrb": {
 			"ticker": "XRB",
 			"name": "Rainbow",
 			"coinGeckoId" : "rainbow",
@@ -858,6 +858,47 @@
 					"minTokens": 1,
 					"maxTokens": 2000,
 					"name": "ARCGFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
+		},
+		"tfr": {
+			"ticker": "TRF",
+			"name": "Trifolium Coin",
+			"coinGeckoId" : "trifolium-coin",
+			"customEmoji" : "☘️",
+			"mainnet-contract": "0xaf3573e1e223c601340ade1f1d52cd106b264367",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0xaf3573e1e223c601340ade1f1d52cd106b264367",
+			"info": "https://t.me/Trifolium_Coin",
+			"ethOnly": true,
+			"events": true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 50000,
+			"decimals": 8,
+			"hideOnDex": true,
+			"safeGasAmount": 150000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "TriDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "TriFight"
 				}
 			},
 			"rules" : {
