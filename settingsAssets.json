@@ -837,10 +837,10 @@
 			},
 			"rules" : {
 				"rain": {
-					"minTokens": 1
+					"minTokens": 0.1
 				},
 				"tip" : {
-					"minTokens" : 1
+					"minTokens" : 0.1
 				}
 			}
 		},
