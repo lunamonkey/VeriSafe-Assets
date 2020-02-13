@@ -472,31 +472,6 @@
 			},
 			"hideOnDex": true
 		},
-		"mtcx": {
-			"ticker": "MTCX",
-			"name": "MYTHIC",
-			"coinGeckoId" : "mythic",
-			"customEmoji" : "🐉",
-			"mainnet-contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x74658fB5f7fF3Bc7d70f7F792d53fd74f89dC055",
-			"info": "https://t.me/mythicalxgroup",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"minimumWithdrawal": 1,
-			"maximumWithdrawal": 300,
-			"decimals": 18,
-			"withdrawalInfo": "All MTCX (old version) must be withdrawn from the bot before February 14th 2020. You must withdraw (using Ether) it if you wish to keep it. It will not be swapped automatically to MTCX2.",
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 0.1,
-					"maxTokens": 10,
-					"name": "MythicDice"
-				}
-			}
-		},
 		"mtcx2": {
 			"ticker": "MTCX2",
 			"name": "MythicX",
