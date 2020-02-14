@@ -925,6 +925,46 @@
 					"minTokens" : 1
 				}
 			}
+		},
+		"epro": {
+			"ticker": "EPRO",
+			"name": "Ether Pro",
+			"customEmoji" : "♦️",
+			"mainnet-contract": "0xbf28df3cd60d9746c71e6e3d12e547bd550335d6",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0xbf28df3cd60d9746c71e6e3d12e547bd550335d6",
+			"info": "https://t.me/Ether_Pro",
+			"ethOnly": true,
+			"events": true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 5000,
+			"decimals": 18,
+			"hideOnDex": true,
+			"safeGasAmount": 120000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "EPRODice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "EPROFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
 		}
 	}
 }
