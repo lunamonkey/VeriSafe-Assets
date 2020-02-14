@@ -884,6 +884,46 @@
 					"minTokens" : 1
 				}
 			}
+		},
+		"cdash": {
+			"ticker": "CDASH",
+			"name": "CryptoDash Token",
+			"customEmoji" : "💰",
+			"mainnet-contract": "0x86b300ef935284a99fa5d148a9a6ccc5103b21a8",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x86b300ef935284a99fa5d148a9a6ccc5103b21a8",
+			"info": "https://t.me/cryptodashairdrop",
+			"ethOnly": true,
+			"events": true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 500000,
+			"decimals": 18,
+			"hideOnDex": true,
+			"safeGasAmount": 120000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "CDashDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "CDashFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
 		}
 	}
 }
