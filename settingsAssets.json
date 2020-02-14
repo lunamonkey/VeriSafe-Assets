@@ -888,6 +888,7 @@
 		"cdash": {
 			"ticker": "CDASH",
 			"name": "CryptoDash Token",
+			"coinGeckoId" : "crypto-dash",
 			"customEmoji" : "💰",
 			"mainnet-contract": "0x86b300ef935284a99fa5d148a9a6ccc5103b21a8",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
