@@ -965,6 +965,46 @@
 					"minTokens" : 1
 				}
 			}
+		},
+		"bte": {
+			"ticker": "BTE",
+			"name": "Bit Energy",
+			"customEmoji" : "₿",
+			"mainnet-contract": "0x267Ba09FE3a8a16c7dc8A9B07b5F2C4AC0aDf1c0",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x267Ba09FE3a8a16c7dc8A9B07b5F2C4AC0aDf1c0",
+			"info": "http://t.me/bitenergy_global",
+			"ethOnly": true,
+			"events": true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 5000,
+			"decimals": 8,
+			"hideOnDex": true,
+			"safeGasAmount": 130000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "BTEDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "BTEFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
 		}
 	}
 }
