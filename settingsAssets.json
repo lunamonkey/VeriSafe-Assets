@@ -969,7 +969,7 @@
 		"bte": {
 			"ticker": "BTE",
 			"name": "Bit Energy",
-			"customEmoji" : "♦️",
+			"customEmoji" : "₿",
 			"mainnet-contract": "0x267Ba09FE3a8a16c7dc8A9B07b5F2C4AC0aDf1c0",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0x267Ba09FE3a8a16c7dc8A9B07b5F2C4AC0aDf1c0",
