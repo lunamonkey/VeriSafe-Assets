@@ -904,6 +904,46 @@
 					"minTokens" : 1
 				}
 			}
+		},
+		"trusd": {
+			"ticker": "TRUSD",
+			"name": "TrustUSD",
+			"customEmoji" : "T$",
+			"mainnet-contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
+			"info": "https://t.me/TrustUSD",
+			"ethOnly": true,
+			"events": true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 100,
+			"decimals": 18,
+			"hideOnDex": true,
+			"safeGasAmount": 120000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "TRUSDDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "TRUSDFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 0.01
+				},
+				"tip" : {
+					"minTokens" : 0.01
+				}
+			}
 		}
 	}
 }
