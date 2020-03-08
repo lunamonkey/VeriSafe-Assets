@@ -472,31 +472,6 @@
 			},
 			"hideOnDex": true
 		},
-		"mtcx2": {
-			"ticker": "MTCX2",
-			"name": "MythicX",
-			"coinGeckoId" : "mythic",
-			"customEmoji" : "🐉",
-			"mainnet-contract": "0x2976cfd34e41fa6d5ec96d6c1b738ef0b582098e",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x2976cfd34e41fa6d5ec96d6c1b738ef0b582098e",
-			"info": "https://t.me/mythicalxgroup",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"minimumWithdrawal": 0.001,
-			"maximumWithdrawal": 30,
-			"decimals": 18,
-			"withdrawalInfo": "This is the new MTCX2 and does not need to be swapped.",
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 0.01,
-					"maxTokens": 5,
-					"name": "MythicDice"
-				}
-			}
-		},
 		"sit": {
 			"ticker": "SIT",
 			"name": "SitKoin",
@@ -649,42 +624,6 @@
 			"rules" : {
 				"rain": {
 					"minTokens": 0.1
-				},
-				"tip" : {
-					"minTokens" : 1
-				}
-			}
-		},
-		"sava": {
-			"ticker": "SAVA",
-			"name": "Sava International",
-			"coinGeckoId" : "sava-international",
-			"customEmoji" : "💵",
-			"mainnet-contract": "0x73f142e90636b4e063cfa80b02e4877484fe464e",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x73f142e90636b4e063cfa80b02e4877484fe464e",
-			"info": "https://t.me/savacegroup",
-			"ethOnly": true,
-			"minimumWithdrawalCharge": 1000000,
-			"maximumWithdrawalCharge": 1000000,
-			"decimals": 8,
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 50,
-					"name": "SAVADice"
-				},
-				"fight": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 2000,
-					"name": "SAVAFight"
-				}
-			},
-			"rules" : {
-				"rain": {
-					"minTokens": 1
 				},
 				"tip" : {
 					"minTokens" : 1
@@ -966,43 +905,43 @@
 				}
 			}
 		},
-		"bte": {
-			"ticker": "BTE",
-			"name": "Bit Energy",
-			"customEmoji" : "₿",
-			"mainnet-contract": "0x267Ba09FE3a8a16c7dc8A9B07b5F2C4AC0aDf1c0",
+		"trusd": {
+			"ticker": "TRUSD",
+			"name": "TrustUSD",
+			"customEmoji" : "T$",
+			"mainnet-contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x267Ba09FE3a8a16c7dc8A9B07b5F2C4AC0aDf1c0",
-			"info": "http://t.me/bitenergy_global",
+			"contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
+			"info": "https://t.me/TrustUSD",
 			"ethOnly": true,
 			"events": true,
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 1,
-			"maximumWithdrawal": 5000,
-			"decimals": 8,
+			"maximumWithdrawal": 100,
+			"decimals": 18,
 			"hideOnDex": true,
-			"safeGasAmount": 130000,
+			"safeGasAmount": 120000,
 			"games": {
 				"dice": {
 					"houseFee": 3,
 					"minTokens": 1,
 					"maxTokens": 50,
-					"name": "BTEDice"
+					"name": "TRUSDDice"
 				},
 				"fight": {
 					"houseFee": 3,
 					"minTokens": 1,
 					"maxTokens": 2000,
-					"name": "BTEFight"
+					"name": "TRUSDFight"
 				}
 			},
 			"rules" : {
 				"rain": {
-					"minTokens": 1
+					"minTokens": 0.01
 				},
 				"tip" : {
-					"minTokens" : 1
+					"minTokens" : 0.01
 				}
 			}
 		}
