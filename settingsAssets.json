@@ -944,6 +944,47 @@
 					"minTokens" : 0.01
 				}
 			}
+		},
+		"fave": {
+			"ticker": "FAVE",
+			"name": "Favin Token",
+			"customEmoji" : "🔽",
+			"coinGeckoId" : "favin-token",
+			"mainnet-contract": "0x45bd9a077c8857dbbf72063692cc58600199dedb",
+			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+			"contract": "0x45bd9a077c8857dbbf72063692cc58600199dedb",
+			"info": "https://t.me/favinpayment",
+			"ethOnly": true,
+			"events": true,
+			"minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 1000000000,
+			"decimals": 8,
+			"hideOnDex": true,
+			"safeGasAmount": 120000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "FaveDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "FaveFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 100
+				},
+				"tip" : {
+					"minTokens" : 1000
+				}
+			}
 		}
 	}
 }
