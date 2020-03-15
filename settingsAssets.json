@@ -959,7 +959,7 @@
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 1,
-			"maximumWithdrawal": 1000000000,
+			"maximumWithdrawal": 10000,
 			"decimals": 8,
 			"hideOnDex": true,
 			"safeGasAmount": 120000,
