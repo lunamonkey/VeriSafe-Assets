@@ -959,7 +959,7 @@
 			"minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
 			"minimumWithdrawal": 1,
-			"maximumWithdrawal": 10000,
+			"maximumWithdrawal": 1,
 			"decimals": 8,
 			"hideOnDex": true,
 			"safeGasAmount": 120000,
@@ -979,10 +979,10 @@
 			},
 			"rules" : {
 				"rain": {
-					"minTokens": 100
+					"minTokens": 10000000000
 				},
 				"tip" : {
-					"minTokens" : 1000
+					"minTokens" : 100000000000
 				}
 			}
 		}
