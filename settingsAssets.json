@@ -742,47 +742,6 @@
 				}
 			}
 		},
-		"xrb": {
-			"ticker": "XRB",
-			"name": "Rainbow",
-			"coinGeckoId" : "rainbow",
-			"customEmoji" : "🌈",
-			"mainnet-contract": "0x0e3abf45855fbaa1afcc3b33cf08b3915bdcda96",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x0e3abf45855fbaa1afcc3b33cf08b3915bdcda96",
-			"info": "https://t.me/RainbowXRB",
-			"ethOnly": true,
-			"events": true,
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"minimumWithdrawal": 0.001,
-			"maximumWithdrawal": 1000,
-			"decimals": 8,
-			"hideOnDex": true,
-			"safeGasAmount": 100000,
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 50,
-					"name": "ARCGDice"
-				},
-				"fight": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 2000,
-					"name": "ARCGFight"
-				}
-			},
-			"rules" : {
-				"rain": {
-					"minTokens": 0.1
-				},
-				"tip" : {
-					"minTokens" : 0.1
-				}
-			}
-		},
 		"trf": {
 			"ticker": "TRF",
 			"name": "Trifolium Coin",
@@ -942,47 +901,6 @@
 				},
 				"tip" : {
 					"minTokens" : 0.01
-				}
-			}
-		},
-		"fave": {
-			"ticker": "FAVE",
-			"name": "Favin Token",
-			"customEmoji" : "🔽",
-			"coinGeckoId" : "favin-token",
-			"mainnet-contract": "0x45bd9a077c8857dbbf72063692cc58600199dedb",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x45bd9a077c8857dbbf72063692cc58600199dedb",
-			"info": "https://t.me/favinpayment",
-			"ethOnly": true,
-			"events": true,
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"minimumWithdrawal": 1,
-			"maximumWithdrawal": 10000,
-			"decimals": 8,
-			"hideOnDex": true,
-			"safeGasAmount": 120000,
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 50,
-					"name": "FaveDice"
-				},
-				"fight": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 2000,
-					"name": "FaveFight"
-				}
-			},
-			"rules" : {
-				"rain": {
-					"minTokens": 100
-				},
-				"tip" : {
-					"minTokens" : 1000
 				}
 			}
 		}
