@@ -983,6 +983,46 @@
 					"minTokens" : 10
 				}
 			}
+		},
+		"rekt": {
+            "ticker": "REKT",
+			"name": "REKT",
+			"coinGeckoId" : "rekt",
+			"customEmoji" : "🤕",
+            "mainnet-contract": "0xabe846228acbc84d0cabddb92158beb2df597e30",
+            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+            "contract": "0xabe846228acbc84d0cabddb92158beb2df597e30",
+            "info": "https://t.me/REKT_Community",
+			"ethOnly": true,
+            "minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 0.1,
+			"maximumWithdrawal": 1000,
+			"decimals": 18,
+			"hideOnDex": true,
+			"safeGasAmount": 120000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 0.01,
+					"maxTokens": 10,
+					"name": "REKTDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 0.01,
+					"maxTokens": 30,
+					"name": "REKTFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 0.01
+				},
+				"tip" : {
+					"minTokens" : 0.01
+				}
+			}
 		}
 	}
 }
