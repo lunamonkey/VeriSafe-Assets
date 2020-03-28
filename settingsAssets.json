@@ -903,6 +903,46 @@
 					"minTokens" : 0.01
 				}
 			}
-		}
+		},
+		"inc8": {
+            "ticker": "INC8",
+            "name": "Incinerate",
+            "customEmoji" : "🔥",
+            "coinGeckoId" : "incinerate-token",
+            "mainnet-contract": "0x38b7014ed2a83bc5801232551344ed928698bd07",
+            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+            "contract": "0x38b7014ed2a83bc5801232551344ed928698bd07",
+            "ethOnly": true,
+			"events": true,
+            "info": "https://t.me/IncinerateToken",
+            "minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 2000,
+            "decimals": 2,
+			"safeGasAmount": 120000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 50,
+					"name": "INC8Dice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 1,
+					"maxTokens": 2000,
+					"name": "INC8Fight"
+				}
+			},
+            "rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 1
+				}
+			}
+        }
 	}
 }
