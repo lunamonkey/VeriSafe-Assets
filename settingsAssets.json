@@ -943,6 +943,46 @@
 					"minTokens" : 1
 				}
 			}
-        }
+		},
+		"srk": {
+            "ticker": "SRK",
+			"name": "SparkPoint",
+			"coinGeckoId" : "sparkpoint",
+			"customEmoji" : "✨",
+            "mainnet-contract": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
+            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+            "contract": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
+            "info": "https://t.me/SparkPointOfficial",
+			"ethOnly": true,
+            "minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 50000,
+			"decimals": 18,
+			"hideOnDex": true,
+			"safeGasAmount": 120000,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 100,
+					"maxTokens": 50000,
+					"name": "SRKDice"
+				},
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 100,
+					"maxTokens": 20000,
+					"name": "SRKFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				},
+				"tip" : {
+					"minTokens" : 10
+				}
+			}
+		}
 	}
 }
