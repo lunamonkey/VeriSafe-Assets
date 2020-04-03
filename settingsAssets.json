@@ -11,10 +11,10 @@
 			"decimals": 18,
 			"rules": {
 				"rain": {
-					"minTokens": 0.00001
+					"minTokens": 0.001
 				},
 				"tip": {
-					"minTokens": 0.00001
+					"minTokens": 0.001
 				}
 			}
 		},
@@ -1023,6 +1023,41 @@
 					"minTokens" : 0.01
 				}
 			}
-		}
+		},
+		"shock": {
+            "ticker": "SHOCK",
+			"name": "AfterShock",
+			"customEmoji" : "⚡️",
+            "coinGeckoId" : "aftershock",
+            "mainnet-contract": "0x62d69910f45b839903eFfd217559307AEc307076",
+            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+			"contract": "0x62d69910f45b839903eFfd217559307AEc307076",
+			"ethOnly": true,
+			"events" : false,
+			"info": "https://t.me/aftershock_token",
+			"withdrawalInfo": "SHOCK has been added to the TipGramBot for withdrawal and rain only. Do not deposit.",
+            "minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 20000,
+			"decimals": 18,
+			"safeGasAmount" : 200000,
+			"games": {
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 100,
+					"maxTokens": 100,
+					"name": "SHOCKFight"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip" : {
+					"minTokens" : 10000
+				}
+			}
+        }
 	}
 }
