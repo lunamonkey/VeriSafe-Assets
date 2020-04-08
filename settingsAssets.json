@@ -2,7 +2,7 @@
 	"coins": {
 		"eth": {
 			"ticker": "ETH",
-			"type" : "ether",
+			"type" : "ethereum",
 			"name": "Ether",
 			"events" : true,
 			"coinGeckoId": "ethereum",
