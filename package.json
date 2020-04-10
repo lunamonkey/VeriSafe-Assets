@@ -4,8 +4,8 @@
   "description": "List of known assets for use in the Dex or TipGram Bot",
   "main": "index.js",
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/VeriSafe/VeriSafe-Assets#readme",
   "dependencies": {
     "decache": "^4.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
