@@ -12,7 +12,7 @@ function reBuildAssets() {
 }
 reBuildAssets();
 console.log("VeriSafe Assets: About to set up reBuild for updating assets");
-setInterval(reBuildAssets, 0.1 * 60 * 1000);
+setInterval(reBuildAssets, 5 * 60 * 1000);
 module.exports = {
 	allAssets : () => allAssets,
 	onlyCoins : () => settingsAssets.coins,
