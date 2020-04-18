@@ -26,7 +26,7 @@
 			"ticker": "TRX",
 			"type": "tron",
 			"addressType" : "tron",
-			"name": "TRON (Demo only)",
+			"name": "TRON",
 			"events" : true,
 			"withdraw" : false,
 			"coinGeckoId": "tron",
@@ -109,6 +109,9 @@
 				},
 				"tip": {
 					"minTokens": 1
+				},
+				"swap" :{
+					"vsfx" : 1
 				}
 			}
 		},
@@ -138,6 +141,9 @@
 				},
 				"tip": {
 					"minTokens": 1
+				},
+				"swap" :{
+					"vsf" : 0.33
 				}
 			}
 		},
@@ -168,6 +174,9 @@
 			"rules": {
 				"rain": {
 					"minTokens": 10
+				},
+				"swap" : {
+					"vsf" : 0.01
 				}
 			}
 		},
