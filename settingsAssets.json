@@ -28,13 +28,14 @@
 			"addressType" : "tron",
 			"name": "TRON",
 			"events" : true,
-			"withdraw" : false,
+			"withdraw" : true,
 			"coinGeckoId": "tron",
 			"customEmoji": "♦",
-			"minimumWithdrawalCharge": 0.0005,
-			"standardWithdrawalCharge": 0.0015,
-			"maximumWithdrawalCharge": 0.01,
+			"minimumWithdrawalCharge": 0.1,
+			"standardWithdrawalCharge": 0.1,
+			"maximumWithdrawalCharge": 0.1,
 			"decimals": 6,
+			"safeGasAmount" : 100000,
 			"feeTicker" : "trx",
 			"rules": {
 				"rain": {
@@ -121,13 +122,14 @@
 			"addressType" : "tron",
 			"name": "VeriTron",
 			"events" : true,
-			"withdraw" : false,
+			"withdraw" : true,
 			"customEmoji": "🛡",
 			"mainnet-contract": "TJHh9dB86tWTDSr6FdovthSjcjfSX6jjTw",
 			"testnet-contract": "TMnnTG8dFGxCzcuibQPqjfSPVzK7mcKASo",
-			"contract": "TJHh9dB86tWTDSr6FdovthSjcjfSX6jjTw",
+			"contract": "TMnnTG8dFGxCzcuibQPqjfSPVzK7mcKASo",
 			"info": "https://t.me/VeriSafe",
 			"dex": "",
+			"safeGasAmount" : 150000,
 			"minimumWithdrawalCharge": 20000,
 			"maximumWithdrawalCharge": 50000,
 			"decimals": 6,
@@ -759,44 +761,6 @@
 				}
 			}
 		},
-		"nxc": {
-			"ticker": "NXC",
-			"type" : "erc20",
-			"addressType" : "ethereum",
-			"name": "Nixma Coin",
-			"events" : true,
-			"customEmoji": "🎲",
-			"mainnet-contract": "0x93Ec2b9D85a7F4b0Abc66abf4CA8d5E50C355516",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0x93Ec2b9D85a7F4b0Abc66abf4CA8d5E50C355516",
-			"info": "http://t.me/nixma_game",
-			"feeTicker" : "eth",
-			"minimumWithdrawalCharge": 1000000,
-			"maximumWithdrawalCharge": 1000000,
-			"decimals": 18,
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 0.1,
-					"maxTokens": 10,
-					"name": "NixDice"
-				},
-				"fight": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 2000,
-					"name": "NixFight"
-				}
-			},
-			"rules": {
-				"rain": {
-					"minTokens": 0.1
-				},
-				"tip": {
-					"minTokens": 1
-				}
-			}
-		},
 		"bstc": {
 			"ticker": "BSTC",
 			"type" : "erc20",
@@ -863,50 +827,6 @@
 					"minTokens": 1,
 					"maxTokens": 2000,
 					"name": "DSCFight"
-				}
-			},
-			"rules": {
-				"rain": {
-					"minTokens": 1
-				},
-				"tip": {
-					"minTokens": 1
-				}
-			}
-		},
-		"arcg": {
-			"ticker": "ARCG",
-			"type" : "erc20",
-			"addressType" : "ethereum",
-			"name": "Arch Crypton Game",
-			"events" : true,
-			"coinGeckoId": "arch-crypton-game",
-			"customEmoji": "💵",
-			"mainnet-contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
-			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-			"contract": "0xf5774f42b28f35429aac35f8eb57541c511fdd49",
-			"info": "https://t.me/ArchCryptonGroup",
-			"feeTicker" : "eth",
-			"minimumWithdrawalCharge": 10000000,
-			"maximumWithdrawalCharge": 10000000,
-			"minimumWithdrawal": 0.001,
-			"maximumWithdrawal": 1000,
-			"decimals": 18,
-			"hideOnDex": true,
-			"safeGasAmount": 500000,
-			"withdrawalInfo": "07/02/2020: ARCG has been relisted.",
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 50,
-					"name": "ARCGDice"
-				},
-				"fight": {
-					"houseFee": 3,
-					"minTokens": 1,
-					"maxTokens": 2000,
-					"name": "ARCGFight"
 				}
 			},
 			"rules": {
@@ -1053,6 +973,7 @@
 			"name": "TrustUSD",
 			"events": true,
 			"customEmoji": "T$",
+			"coinGeckoId" : "trustusd",
 			"mainnet-contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
