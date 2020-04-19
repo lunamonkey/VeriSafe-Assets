@@ -953,6 +953,7 @@
 			"name": "TrustUSD",
 			"events": true,
 			"customEmoji": "T$",
+			"coinGeckoId" : "trustusd",
 			"mainnet-contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xDD436a0Dce9244B36599AE7b22f0373b4e33992d",
