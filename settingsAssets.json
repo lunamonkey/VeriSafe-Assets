@@ -290,6 +290,7 @@
 			"name": "PIXBY",
 			"events" : true,
 			"customEmoji": "⛋",
+			"coinGeckoId" : "pixby",
 			"mainnet-contract": "0xB53e08B97724126Bda6d237B94F766c0b81C90fE",
 			"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
 			"contract": "0xB53e08B97724126Bda6d237B94F766c0b81C90fE",
