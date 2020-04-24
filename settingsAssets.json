@@ -116,63 +116,6 @@
 				}
 			}
 		},
-		"vtr": {
-			"ticker": "VTR",
-			"type" : "trc20",
-			"addressType" : "tron",
-			"name": "VeriTron",
-			"events" : true,
-			"withdraw" : true,
-			"customEmoji": "🛡",
-			"mainnet-contract": "TJHh9dB86tWTDSr6FdovthSjcjfSX6jjTw",
-			"testnet-contract": "TMnnTG8dFGxCzcuibQPqjfSPVzK7mcKASo",
-			"contract": "TMnnTG8dFGxCzcuibQPqjfSPVzK7mcKASo",
-			"info": "https://t.me/VeriSafe",
-			"dex": "",
-			"safeGasAmount" : 150000,
-			"minimumWithdrawalCharge": 20000,
-			"maximumWithdrawalCharge": 50000,
-			"decimals": 6,
-			"feeTicker" : "trx",
-			"games": {
-				"dice": {
-					"houseFee": 3,
-					"minTokens": 1000,
-					"maxTokens": 10000,
-					"name": "VTRDice"
-				},
-				"flipLite": {
-					"houseFee": 3,
-					"minTokens": 1000,
-					"maxTokens": 10000,
-					"name": "VTRFlipLite"
-				},
-				"flip": {
-					"houseFee": 3,
-					"minTokens": 1000,
-					"maxTokens": 10000,
-					"name": "VTRFlip"
-				},
-				"roulette": {
-					"houseFee": 2,
-					"minTokens": 1000,
-					"maxTokens": 10000,
-					"name": "VTRSpin"
-				}
-			},
-			"rules": {
-				"rain": {
-					"minTokens": 1
-				},
-				"tip": {
-					"minTokens": 1
-				},
-				"swap" : {
-					"vsf" : 20,
-					"vsfx" : 20
-				}
-			}
-		},
 		"vsfx": {
 			"ticker": "VSFx",
 			"type" : "erc20",
@@ -1169,6 +1112,94 @@
 				},
 				"tip" : {
 					"minTokens" : 10000
+				}
+			}
+		},
+		"fnt": {
+            "ticker": "FNT",
+			"type" : "erc20",
+			"addressType" : "ethereum",
+			"name": "Falcon",
+			"customEmoji" : "🦅",
+            "coinGeckoIdxxx" : "",
+            "mainnet-contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+			"contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+			"feeTicker" : "eth",
+			"events" : true,
+			"withdrawal" : true,
+			"info": "https://t.me/Falcon_official",
+			"withdrawalInfo": "New Listing: Falcon Token",
+            "minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 2000000,
+			"decimals": 6,
+			"safeGasAmount" : 120000,
+			"games": {
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "FalconFight"
+				},
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "FalconDice"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				},
+				"tip" : {
+					"minTokens" : 10
+				}
+			}
+        },
+		"brap": {
+            "ticker": "BRAP",
+			"type" : "erc20",
+			"addressType" : "ethereum",
+			"name": "BRAPPER",
+			"customEmoji" : "🍑",
+            "coinGeckoId" : "brapper-token",
+            "mainnet-contract": "0x905d3237dc71f7d8f604778e8b78f0c3ccff9377",
+            "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+			"contract": "0x905d3237dc71f7d8f604778e8b78f0c3ccff9377",
+			"feeTicker" : "eth",
+			"events" : true,
+			"withdrawal" : true,
+			"info": "https://t.me/Falcon_official",
+			"withdrawalInfo": "Re-listing: Brapper Token",
+            "minimumWithdrawalCharge": 10000000,
+			"maximumWithdrawalCharge": 10000000,
+			"minimumWithdrawal": 1,
+			"maximumWithdrawal": 2000000,
+			"decimals": 18,
+			"safeGasAmount" : 140000,
+			"games": {
+				"fight": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "BrapFight"
+				},
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 10,
+					"maxTokens": 10000,
+					"name": "BrapDice"
+				}
+			},
+			"rules" : {
+				"rain": {
+					"minTokens": 10
+				},
+				"tip" : {
+					"minTokens" : 10
 				}
 			}
         }
