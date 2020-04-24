@@ -1172,7 +1172,7 @@
 			"feeTicker" : "eth",
 			"events" : true,
 			"withdrawal" : true,
-			"info": "https://t.me/Falcon_official",
+			"info": "https://t.me/BrapperSpace",
 			"withdrawalInfo": "Re-listing: Brapper Token",
             "minimumWithdrawalCharge": 10000000,
 			"maximumWithdrawalCharge": 10000000,
