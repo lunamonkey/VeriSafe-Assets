@@ -12,40 +12,48 @@ Example formatting:
 ```
 "ticker": {
 	"ticker": "TICKER",
+	"type" : "erc20",
+	"addressType" : "ethereum",
 	"name": "Token Name",
-	"mainnet-contract": "Duplicate - ignore this",
-	"testnet-contract": "supply kovan testnet if possible",
-	"contract": "0xe7e4279b80d319ede2889855135a22021baf0907",
-	"info": "https://t.me/YourCommunity",
-	"ethOnly" : true,
-	"minimumWithdrawalCharge": 200000,
-	"maximumWithdrawalCharge": 600000,
+	"customEmoji" : "🍑",
+	"coinGeckoId" : "token-name",
+	"mainnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+	"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+	"contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+	"feeTicker" : "eth",
+	"useDynFee" : true,
+	"useDynUSDFee" : false,
+	"events" : true,
+	"withdrawal" : true,
+	"info": "https://t.me/YourSpace",
+	"withdrawalInfo": "Important info here",
+	"minimumWithdrawalCharge": 10000000,
+	"maximumWithdrawalCharge": 10000000,
 	"minimumWithdrawal": 1,
-	"maximumWithdrawal": 100000000000,
+	"maximumWithdrawal": 2000000,
 	"decimals": 18,
-	"safeGasAmount": 100000,
-	"withdrawalInfo": "",
+	"safeGasAmount" : 140000,
 	"games": {
-		"dice": {
-			"houseFee": 3,
-			"minTokens": 0.1,
-			"maxTokens": 10,
-			"name": "TokenDice"
-		},
 		"fight": {
 			"houseFee": 3,
-			"minTokens": 20,
-			"maxTokens": 2000,
-			"name": "TokenFight"
+			"minTokens": 10,
+			"maxTokens": 10000,
+			"name": "Fight"
+		},
+		"dice": {
+			"houseFee": 3,
+			"minTokens": 10,
+			"maxTokens": 10000,
+			"name": "Dice"
 		}
 	},
 	"rules" : {
+		"rain": {
+			"minTokens": 10
+		},
 		"tip" : {
 			"minTokens" : 10
 		}
-		"rain": {
-			"minTokens": 0.1
-		}
 	}
-},
+}
 ```
