@@ -158,6 +158,65 @@
 				}
 			}
 		},
+		"vtr": {
+			"ticker": "VTR",
+			"type" : "trc20",
+			"addressType" : "tron",
+			"name": "VeriTron",
+			"events" : true,
+			"withdraw" : true,
+			"customEmoji": "🛡",
+			"mainnet-contract": "TJHh9dB86tWTDSr6FdovthSjcjfSX6jjTw",
+			"testnet-contract": "TMnnTG8dFGxCzcuibQPqjfSPVzK7mcKASo",
+			"contract": "TMnnTG8dFGxCzcuibQPqjfSPVzK7mcKASo",
+			"info": "https://t.me/VeriSafe",
+			"dex": "",
+			"safeGasAmount" : 150000,
+			"minimumWithdrawalCharge": 2000,
+			"maximumWithdrawalCharge": 50000,
+			"decimals": 6,
+			"feeTicker" : "trx",
+			"useDynFee" : true,
+			"useDynUSDFee" : false,
+			"games": {
+				"dice": {
+					"houseFee": 3,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "VTRDice"
+				},
+				"flipLite": {
+					"houseFee": 3,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "VTRFlipLite"
+				},
+				"flip": {
+					"houseFee": 3,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "VTRFlip"
+				},
+				"roulette": {
+					"houseFee": 2,
+					"minTokens": 1000,
+					"maxTokens": 10000,
+					"name": "VTRSpin"
+				}
+			},
+			"rules": {
+				"rain": {
+					"minTokens": 1
+				},
+				"tip": {
+					"minTokens": 1
+				},
+				"swap" : {
+					"vsf" : 20,
+					"vsfx" : 20
+				}
+			}
+		},
 		"zeus": {
 			"ticker": "ZEUS",
 			"type" : "erc20",
