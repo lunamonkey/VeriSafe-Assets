@@ -1,4 +1,4 @@
-# VeriSafe-Assets
+# VeriSafe-Assets 2020
 List of known assets for use in the Dex or TipGram Bot
 
 If users would like to add their own tokens, or new tokens to the TipGramBot or The Dex features, then a request can be made directly in GitHub. 
