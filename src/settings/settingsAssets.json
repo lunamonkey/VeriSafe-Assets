@@ -179,7 +179,7 @@
 			},
 			"blockchain": {
 				"mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-				"testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
 				"contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
 				"decimals": 18
 			},

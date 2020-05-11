@@ -4,41 +4,40 @@
 	"description": "List of known assets for use in the Dex or TipGram Bot",
 	"main": "build/index.js",
 	"scripts": {
-	  "format": "prettier --write \"src/**/*.ts\"",
-	  "lint": "tslint -p tsconfig.json",
-	  "test": "jest --config jest.config.json",
-	  "start:dev": "nodemon",
-	  "build": "rimraf ./build && tsc",
-	  "start": "npm run build && node build/index.js"
+		"format": "prettier --write \"src/**/*.ts\"",
+		"lint": "tslint -p tsconfig.json",
+		"test": "jest --config jest.config.json",
+		"start:dev": "nodemon",
+		"build": "rimraf ./build && tsc",
+		"start": "npm run build && node build/index.js"
 	},
 	"files": [
-	  "/build/index.js*",
-	  "/build/settings*"
+		"/build/index.js*",
+		"/build/settings*"
 	],
 	"repository": {
-	  "type": "git",
-	  "url": "git+https://github.com/VeriSafe/VeriSafe-Assets.git"
+		"type": "git",
+		"url": "git+https://github.com/VeriSafe/VeriSafe-Assets.git"
 	},
 	"author": "Lunamonkey",
 	"license": "MIT",
 	"bugs": {
-	  "url": "https://github.com/VeriSafe/VeriSafe-Assets/issues"
+		"url": "https://github.com/VeriSafe/VeriSafe-Assets/issues"
 	},
 	"homepage": "https://github.com/VeriSafe/VeriSafe-Assets#readme",
 	"dependencies": {},
 	"devDependencies": {
-	  "@types/jest": "^25.2.1",
-	  "@types/node": "^13.13.4",
-	  "eslint": "^6.8.0",
-	  "jest": "^26.0.0",
-	  "nodemon": "^2.0.3",
-	  "prettier": "^2.0.5",
-	  "rimraf": "^3.0.2",
-	  "ts-jest": "^25.4.0",
-	  "ts-node": "^8.10.1",
-	  "tslint": "^6.1.2",
-	  "tslint-config-prettier": "^1.18.0",
-	  "typescript": "^3.8.3"
+		"@types/jest": "^25.2.1",
+		"@types/node": "^13.13.4",
+		"eslint": "^6.8.0",
+		"jest": "^26.0.0",
+		"nodemon": "^2.0.3",
+		"prettier": "^2.0.5",
+		"rimraf": "^3.0.2",
+		"ts-jest": "^25.4.0",
+		"ts-node": "^8.10.1",
+		"tslint": "^6.1.2",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^3.8.3"
 	}
-  }
-  
+}
