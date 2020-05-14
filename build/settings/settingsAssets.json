@@ -156,7 +156,7 @@
                     "minValue": 1
                 }
             ],
-            "swap": [
+            "switch": [
                 {
                     "to": "vsfx",
                     "ratio": 1
@@ -205,7 +205,7 @@
                     "maxValue": 10000
                 }
             ],
-            "swap": [
+            "switch": [
                 {
                     "to": "vsf",
                     "ratio": 0.33
@@ -279,7 +279,7 @@
                     "minValue": 1
                 }
             ],
-            "swap": [
+            "switch": [
                 {
                     "to": "vsf",
                     "ratio": 20
@@ -330,7 +330,7 @@
                     "minValue": 10
                 }
             ],
-            "swap": [
+            "switch": [
                 {
                     "to": "vsf",
                     "ratio": 0.01
