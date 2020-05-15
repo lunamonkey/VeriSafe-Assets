@@ -164,7 +164,8 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "VeriSafe",
-            "events": true,
+            "events": false,
+            "withdraw": false,
             "blockchain": {
                 "mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
                 "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
@@ -242,6 +243,7 @@
             "addressType": "ethereum",
             "name": "VSFx (Promo VSF)",
             "events": false,
+            "withdraw": false,
             "hideOnDex": true,
             "info": {
                 "coinGeckoId": "verisafe",
