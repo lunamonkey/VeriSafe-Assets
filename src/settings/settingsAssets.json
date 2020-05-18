@@ -1754,8 +1754,7 @@
 			"withdrawal": true,
 			"safeGasAmount": 120000,
 			"info": {
-				"customEmoji": "🍑",
-				"coinGeckoId": "brapper-token",
+				"customEmoji": "🌀",
 				"telegram": "https://t.me/stateratoken"
 			},
 			"blockchain": {
