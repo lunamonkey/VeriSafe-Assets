@@ -1743,6 +1743,65 @@
 					"maxValue": 2000000
 				}
 			]
+		},
+		{
+			"id": "sta",
+			"ticker": "STA",
+			"type": "erc20",
+			"addressType": "ethereum",
+			"name": "Statera",
+			"events": true,
+			"withdrawal": true,
+			"safeGasAmount": 120000,
+			"info": {
+				"customEmoji": "🍑",
+				"coinGeckoId": "brapper-token",
+				"telegram": "https://t.me/stateratoken"
+			},
+			"blockchain": {
+				"mainnet-contract": "0xe343245DE92181bc06ba5Cd1152C705A2C5F3E2F",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+				"contract": "0xe343245DE92181bc06ba5Cd1152C705A2C5F3E2F",
+				"decimals": 18
+			},
+			"charges": {
+				"minimumWithdrawalCharge": 10000000,
+				"maximumWithdrawalCharge": 10000000,
+				"feeTicker": "esh",
+				"useDynFee": true,
+				"useDynUSDFee": false
+			},
+			"games": [
+				{
+					"command": "fight",
+					"houseFee": 3,
+					"minValue": 1,
+					"maxValue": 1000,
+					"name": "StaFight"
+				},
+				{
+					"command": "dice",
+					"houseFee": 3,
+					"minValue": 1,
+					"maxValue": 1000,
+					"name": "StaDice"
+				}
+			],
+			"rules": [
+				{
+					"command": "rain",
+					"minValue": 0.1
+				},
+				{
+					"command": "tip",
+					"minValue": 0.1
+				},
+				{
+					"command": "withdraw",
+					"minValue": 0.1,
+					"maxValue": 2000000
+				}
+			]
 		}
 	]
 }

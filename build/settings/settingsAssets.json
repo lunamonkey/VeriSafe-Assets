@@ -86,8 +86,8 @@
                 "minimumWithdrawalCharge": 0.0004,
                 "standardWithdrawalCharge": 0.0015,
                 "maximumWithdrawalCharge": 0.01,
-                "useDynFee": true,
-                "useDynUSDFee": false,
+                "useDynFee": false,
+                "useDynUSDFee": true,
                 "feeTicker": "eth"
             },
             "rules": [
@@ -120,8 +120,8 @@
                 "minimumWithdrawalCharge": 0.1,
                 "standardWithdrawalCharge": 0.1,
                 "maximumWithdrawalCharge": 0.1,
-                "useDynFee": true,
-                "useDynUSDFee": false,
+                "useDynFee": false,
+                "useDynUSDFee": true,
                 "feeTicker": "trx"
             },
             "safeGasAmount": 100000,
@@ -153,8 +153,8 @@
             },
             "charges": {
                 "feeTicker": "btc",
-                "useDynFee": true,
-                "useDynUSDFee": false,
+                "useDynFee": false,
+                "useDynUSDFee": true,
                 "minimumWithdrawalCharge": 0.01
             }
         },
@@ -181,9 +181,9 @@
             "charges": {
                 "minimumWithdrawalCharge": 3000,
                 "maximumWithdrawalCharge": 50000,
-                "feeTicker": "vsf",
-                "useDynFee": false,
-                "useDynUSDFee": true
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -260,7 +260,7 @@
             "charges": {
                 "minimumWithdrawalCharge": 10000000,
                 "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
+                "feeTicker": "esh",
                 "useDynFee": true,
                 "useDynUSDFee": false
             },
@@ -305,11 +305,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 200000,
-                "maximumWithdrawalCharge": 600000
+                "maximumWithdrawalCharge": 600000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -352,11 +352,11 @@
                 "decimals": 8
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 40,
-                "maximumWithdrawalCharge": 100
+                "maximumWithdrawalCharge": 100,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -387,11 +387,11 @@
                 "contract": "0x70Ec7702ADA8530d8f7332f7f3700099553D772D"
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 100000000,
-                "maximumWithdrawalCharge": 100000000
+                "maximumWithdrawalCharge": 100000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -422,11 +422,11 @@
                 "contract": "0x71590d4ed14d9cbacb2cff8abf919ac4d22c5b7b"
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -458,11 +458,11 @@
                 "decimals": 0
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -494,11 +494,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -529,11 +529,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -564,11 +564,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1855000000,
-                "maximumWithdrawalCharge": 1855000000
+                "maximumWithdrawalCharge": 1855000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -599,11 +599,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -643,11 +643,11 @@
                 "decimals": 8
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -677,11 +677,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -712,11 +712,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -756,11 +756,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -791,11 +791,11 @@
                 "telegram": "https://t.me/deflacoin"
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -825,11 +825,11 @@
                 "decimals": 8
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -859,11 +859,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -894,11 +894,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -929,11 +929,11 @@
                 "decimals": 8
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -974,11 +974,11 @@
                 "decimals": 7
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1026,11 +1026,11 @@
                 "decimals": 8
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1078,11 +1078,11 @@
                 "decimals": 10
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1129,11 +1129,11 @@
                 "decimals": 8
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1183,11 +1183,11 @@
                 "decimals": 8
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1242,11 +1242,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1300,11 +1300,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1359,11 +1359,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1417,11 +1417,11 @@
                 "decimals": 2
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1475,11 +1475,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1533,11 +1533,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1592,11 +1592,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1644,11 +1644,11 @@
                 "decimals": 6
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1704,11 +1704,11 @@
                 "decimals": 18
             },
             "charges": {
-                "feeTicker": "eth",
-                "useDynFee": true,
-                "useDynUSDFee": false,
                 "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
             },
             "games": [
                 {
@@ -1738,6 +1738,65 @@
                 {
                     "command": "withdraw",
                     "minValue": 1,
+                    "maxValue": 2000000
+                }
+            ]
+        },
+        {
+            "id": "sta",
+            "ticker": "STA",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "Statera",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "customEmoji": "🍑",
+                "coinGeckoId": "brapper-token",
+                "telegram": "https://t.me/stateratoken"
+            },
+            "blockchain": {
+                "mainnet-contract": "0xe343245DE92181bc06ba5Cd1152C705A2C5F3E2F",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0xe343245DE92181bc06ba5Cd1152C705A2C5F3E2F",
+                "decimals": 18
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 10000000,
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 1,
+                    "maxValue": 1000,
+                    "name": "StaFight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 1,
+                    "maxValue": 1000,
+                    "name": "StaDice"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 0.1
+                },
+                {
+                    "command": "tip",
+                    "minValue": 0.1
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 0.1,
                     "maxValue": 2000000
                 }
             ]
