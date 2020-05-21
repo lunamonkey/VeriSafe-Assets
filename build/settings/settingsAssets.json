@@ -1799,6 +1799,65 @@
                     "maxValue": 2000000
                 }
             ]
+        },
+        {
+            "id": "cso",
+            "ticker": "CSO",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "Coinsto Token",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 100000,
+            "info": {
+                "customEmoji": "🐺",
+                "telegram": "https://t.me/coinstocommunity",
+                "coinGeckoId": "coinsto"
+            },
+            "blockchain": {
+                "mainnet-contract": "0x2a469A22101f1F672B745D729D13Ab8DBd203C9B",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0x2a469A22101f1F672B745D729D13Ab8DBd203C9B",
+                "decimals": 8
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 1000,
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 1,
+                    "maxValue": 1000,
+                    "name": "CSOFight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 1,
+                    "maxValue": 1000,
+                    "name": "CSODice"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 1
+                },
+                {
+                    "command": "tip",
+                    "minValue": 1
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 1,
+                    "maxValue": 2000000
+                }
+            ]
         }
     ]
 }
