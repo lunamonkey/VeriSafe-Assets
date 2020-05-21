@@ -229,60 +229,6 @@
 				{
 					"to": "esh",
 					"ratio": 0.0000123221
-				},
-				{
-					"to": "vsfx",
-					"ratio": 1
-				}
-			]
-		},
-		{
-			"id": "vsfx",
-			"ticker": "VSFx",
-			"type": "erc20",
-			"addressType": "ethereum",
-			"name": "VSFx (Promo VSF)",
-			"events": false,
-			"withdraw": false,
-			"hideOnDex": true,
-			"info": {
-				"coinGeckoId": "verisafe",
-				"customEmoji": "🛡",
-				"telegram": "https://t.me/VeriSafe",
-				"withdrawalInfo": "VSFx is a promotional VSF token. When withdrawn, it will arrive as VSF. This token will be expired and reset to 0 at the beginning of each month. You must withdraw it (using Ether) if you wish to keep it."
-			},
-			"blockchain": {
-				"mainnet-contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-				"contract": "0xac9ce326e95f51b5005e9fe1dd8085a01f18450c",
-				"decimals": 18
-			},
-			"charges": {
-				"minimumWithdrawalCharge": 10000000,
-				"maximumWithdrawalCharge": 10000000,
-				"feeTicker": "esh",
-				"useDynFee": true,
-				"useDynUSDFee": false
-			},
-			"rules": [
-				{
-					"command": "rain",
-					"minValue": 1
-				},
-				{
-					"command": "tip",
-					"minValue": 1
-				},
-				{
-					"command": "withdraw",
-					"minValue": 1,
-					"maxValue": 10000
-				}
-			],
-			"switch": [
-				{
-					"to": "vsf",
-					"ratio": 0.33
 				}
 			]
 		},
@@ -1636,8 +1582,7 @@
 			"safeGasAmount": 120000,
 			"info": {
 				"customEmoji": "🦅",
-				"telegram": "https://t.me/Falcon_official",
-				"withdrawalInfo": "New Listing: Falcon Token"
+				"telegram": "https://t.me/Falcon_official"
 			},
 			"blockchain": {
 				"mainnet-contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
@@ -1696,8 +1641,7 @@
 			"info": {
 				"customEmoji": "🍑",
 				"coinGeckoId": "brapper-token",
-				"telegram": "https://t.me/BrapperSpace",
-				"withdrawalInfo": "Re-listing: Brapper Token"
+				"telegram": "https://t.me/BrapperSpace"
 			},
 			"blockchain": {
 				"mainnet-contract": "0x905d3237dc71f7d8f604778e8b78f0c3ccff9377",
