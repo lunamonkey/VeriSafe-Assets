@@ -90,6 +90,7 @@
                 "useDynUSDFee": true,
                 "feeTicker": "eth"
             },
+            "safeGasAmount": 30000,
             "rules": [
                 {
                     "command": "rain",
