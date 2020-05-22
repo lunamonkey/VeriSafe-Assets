@@ -1059,57 +1059,6 @@
             ]
         },
         {
-            "id": "dsc",
-            "ticker": "DSC",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "DOGESTABLECOINTOKEN",
-            "events": true,
-            "info": {
-                "customEmoji": "🐶",
-                "telegram": "https://t.me/dogedsc"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x3b3ad8a4acb7d0dcdf9f9d82e603c1cc5bb9408b",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0x3b3ad8a4acb7d0dcdf9f9d82e603c1cc5bb9408b",
-                "decimals": 8
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000,
-                "feeTicker": "esh",
-                "useDynFee": true,
-                "useDynUSDFee": false
-            },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 50,
-                    "name": "DSCDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "DSCFight"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 1
-                },
-                {
-                    "command": "tip",
-                    "minValue": 1
-                }
-            ]
-        },
-        {
             "id": "trf",
             "ticker": "TRF",
             "type": "erc20",
@@ -1800,6 +1749,65 @@
                 {
                     "command": "withdraw",
                     "minValue": 1,
+                    "maxValue": 2000000
+                }
+            ]
+        },
+        {
+            "id": "sdt",
+            "ticker": "SDT",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "Semi Deflationary Token",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "customEmoji": "🕯",
+                "telegram": "https://t.me/SDTtheFirstSemiDeflationaryToken",
+                "xxxcoinGeckoId": ""
+            },
+            "blockchain": {
+                "mainnet-contract": "0xdd85f02e149f26dbd3678227ebdc355445d0eaf6",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0xdd85f02e149f26dbd3678227ebdc355445d0eaf6",
+                "decimals": 8
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 0.1,
+                "maximumWithdrawalCharge": 10000,
+                "feeTicker": "esh",
+                "useDynFee": true,
+                "useDynUSDFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 0.01,
+                    "maxValue": 10,
+                    "name": "SDTFight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 0.001,
+                    "maxValue": 10,
+                    "name": "SDTDice"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 0.001
+                },
+                {
+                    "command": "tip",
+                    "minValue": 0.001
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 0.001,
                     "maxValue": 2000000
                 }
             ]
