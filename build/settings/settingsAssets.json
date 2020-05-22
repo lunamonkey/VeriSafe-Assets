@@ -1771,7 +1771,7 @@
                 "mainnet-contract": "0xdd85f02e149f26dbd3678227ebdc355445d0eaf6",
                 "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
                 "contract": "0xdd85f02e149f26dbd3678227ebdc355445d0eaf6",
-                "decimals": 8
+                "decimals": 0
             },
             "charges": {
                 "minimumWithdrawalCharge": 0.1,
