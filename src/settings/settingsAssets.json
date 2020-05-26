@@ -1751,6 +1751,65 @@
 					"maxValue": 2000000
 				}
 			]
+		},
+		{
+			"id": "hole",
+			"ticker": "HOLE",
+			"type": "erc20",
+			"addressType": "ethereum",
+			"name": "Black Hole",
+			"events": true,
+			"withdrawal": true,
+			"safeGasAmount": 120000,
+			"info": {
+				"customEmoji": "⭕️",
+				"telegram": "https://t.me/superblackhole",
+				"coinGeckoId" : "super-black-hole"
+			},
+			"blockchain": {
+				"mainnet-contract": "0x03fb52d4ee633ab0d06c833e32efdd8d388f3e6a",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+				"contract": "0x03fb52d4ee633ab0d06c833e32efdd8d388f3e6a",
+				"decimals": 18
+			},
+			"charges": {
+				"minimumWithdrawalCharge": 0.1,
+				"maximumWithdrawalCharge": 10000,
+				"feeTicker": "esh",
+				"useDynFee": true,
+				"useDynUSDFee": false
+			},
+			"games": [
+				{
+					"command": "fight",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 10,
+					"name": "HoleFight"
+				},
+				{
+					"command": "dice",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 10,
+					"name": "HoleDice"
+				}
+			],
+			"rules": [
+				{
+					"command": "rain",
+					"minValue": 0.001
+				},
+				{
+					"command": "tip",
+					"minValue": 0.001
+				},
+				{
+					"command": "withdraw",
+					"minValue": 0.001,
+					"maxValue": 2000000
+				}
+			]
 		}
 	]
 }
