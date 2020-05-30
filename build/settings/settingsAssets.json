@@ -1149,9 +1149,9 @@
                 "telegram": "https://t.me/stateratoken"
             },
             "blockchain": {
-                "mainnet-contract": "0xe343245DE92181bc06ba5Cd1152C705A2C5F3E2F",
+                "mainnet-contract": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
                 "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0xe343245DE92181bc06ba5Cd1152C705A2C5F3E2F",
+                "contract": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
                 "decimals": 18
             },
             "charges": {
