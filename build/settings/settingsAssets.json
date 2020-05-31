@@ -101,7 +101,7 @@
             "info": {
                 "coinGeckoId": "ash",
                 "customEmoji": "⚱️",
-                "telegram": "https://t.me/burntoken"
+                "telegram": "https://t.me/stateratoken"
             },
             "blockchain": {
                 "decimals": 18,
@@ -125,7 +125,13 @@
                     "name": "AshDice"
                 }
             ],
-            "safeGasAmount": 800000
+            "safeGasAmount": 800000,
+            "switch": [
+                {
+                    "to": "sta",
+                    "ratio": 1
+                }
+            ]
         },
         {
             "id": "burn",
@@ -137,7 +143,7 @@
             "info": {
                 "coinGeckoId": "the-burn-token",
                 "customEmoji": "🔥",
-                "telegram": "https://t.me/burntoken"
+                "telegram": "https://t.me/stateratoken"
             },
             "blockchain": {
                 "mainnet-contract": "0x4f7c5bd3f7d62a9c984e265d73a86f5515f3e92b",
@@ -161,7 +167,13 @@
                     "name": "BurnDice"
                 }
             ],
-            "safeGasAmount": 120000
+            "safeGasAmount": 120000,
+            "switch": [
+                {
+                    "to": "sta",
+                    "ratio": 1
+                }
+            ]
         },
         {
             "id": "pixby",
