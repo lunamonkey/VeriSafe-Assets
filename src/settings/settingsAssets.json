@@ -99,7 +99,6 @@
 			"name": "Ash",
 			"events": true,
 			"info": {
-				"coinGeckoId": "ash",
 				"customEmoji": "⚱️",
 				"telegram": "https://t.me/stateratoken"
 			},
@@ -142,7 +141,6 @@
 			"name": "The Burn Token",
 			"events": true,
 			"info": {
-				"coinGeckoId": "the-burn-token",
 				"customEmoji": "🔥",
 				"telegram": "https://t.me/stateratoken"
 			},
