@@ -129,7 +129,7 @@
 			"switch": [
 				{
 					"to": "sta",
-					"ratio": 1
+					"ratio": 0.1
 				}
 			]
 		},
@@ -170,7 +170,7 @@
 			"switch": [
 				{
 					"to": "sta",
-					"ratio": 1
+					"ratio": 0.1
 				}
 			]
 		},
