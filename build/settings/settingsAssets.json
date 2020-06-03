@@ -1155,6 +1155,7 @@
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
+                "coinGeckoId": "statera",
                 "customEmoji": "🌀",
                 "telegram": "https://t.me/stateratoken"
             },
