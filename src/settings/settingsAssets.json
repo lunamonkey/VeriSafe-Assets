@@ -1040,6 +1040,7 @@
 			"withdrawal": true,
 			"safeGasAmount": 120000,
 			"info": {
+				"coinGeckoId" : "falcon-token",
 				"customEmoji": "🦅",
 				"telegram": "https://t.me/Falcon_official"
 			},
