@@ -33,8 +33,9 @@ Example formatting:
 	},
 	"charges" : {
 		"feeTicker" : "eth",
-		"useDynFee" : true,
-		"useDynUSDFee" : false,
+		"useTargetAltAsFee" : true,
+		"useTargetSelfAsFee" : false,
+		"useForceAltAsFee" : false,
 		"minimumWithdrawalCharge": 10000000,
 		"maximumWithdrawalCharge": 10000000,
 	},
