@@ -211,6 +211,13 @@
                     "minValue": 10,
                     "maxValue": 10000,
                     "name": "PIXBYDice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 2,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
                 }
             ]
         },
@@ -463,6 +470,13 @@
                     "minValue": 20,
                     "maxValue": 2000,
                     "name": "XDBFight"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 2,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
                 }
             ],
             "rules": [
@@ -862,6 +876,13 @@
                     "minValue": 1,
                     "maxValue": 2000,
                     "name": "INC8Fight"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 2,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
                 }
             ],
             "rules": [
@@ -921,6 +942,13 @@
                     "minValue": 100,
                     "maxValue": 20000,
                     "name": "SRKFight"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 2,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
                 }
             ],
             "rules": [
@@ -1092,6 +1120,13 @@
                     "minValue": 10,
                     "maxValue": 10000,
                     "name": "FalconDice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 2,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
                 }
             ],
             "rules": [
@@ -1212,6 +1247,13 @@
                     "minValue": 1,
                     "maxValue": 1000,
                     "name": "StaDice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 2,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
                 }
             ],
             "rules": [
@@ -1392,6 +1434,13 @@
                     "minValue": 0.001,
                     "maxValue": 10,
                     "name": "HoleDice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 2,
+                    "minValue": 0.1,
+                    "maxValue": 10,
+                    "name": "Roulette"
                 }
             ],
             "rules": [
