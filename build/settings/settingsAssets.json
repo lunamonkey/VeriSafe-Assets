@@ -214,7 +214,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -473,7 +473,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -879,7 +879,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -945,7 +945,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -1123,7 +1123,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -1250,7 +1250,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -1437,7 +1437,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 0.1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -1504,7 +1504,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 0.1,
                     "maxValue": 10,
                     "name": "Roulette"
@@ -1571,7 +1571,7 @@
                 },
                 {
                     "command": "roulette",
-                    "houseFee": 2,
+                    "houseFee": 0,
                     "minValue": 0.1,
                     "maxValue": 10,
                     "name": "Roulette"
