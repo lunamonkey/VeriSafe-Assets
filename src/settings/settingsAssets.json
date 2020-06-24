@@ -1460,6 +1460,140 @@
 					"maxValue": 2000000
 				}
 			]
+		},
+		{
+			"id": "rtc",
+			"ticker": "RTC",
+			"type": "erc20",
+			"addressType": "ethereum",
+			"name": "Retric",
+			"events": true,
+			"withdrawal": true,
+			"safeGasAmount": 120000,
+			"info": {
+				"customEmoji": "🔆",
+				"telegram": "https://t.me/Retric_Token",
+				"coinGeckoIdxxx" : ""
+			},
+			"blockchain": {
+				"mainnet-contract": "0xab89a337ed77004937cb635ba5bb5d63d5b272ea",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+				"contract": "0xab89a337ed77004937cb635ba5bb5d63d5b272ea",
+				"decimals": 18
+			},
+			"charges": {
+				"minimumWithdrawalCharge": 0.1,
+				"maximumWithdrawalCharge": 10000,
+				"feeTicker": "eth",
+				"useTargetAltAsFee": true,
+				"useTargetSelfAsFee": false,
+				"useForceAltAsFee" : true
+			},
+			"games": [
+				{
+					"command": "fight",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 10,
+					"name": "Fight"
+				},
+				{
+					"command": "dice",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 10,
+					"name": "Dice"
+				},
+				{
+					"command": "roulette",
+					"houseFee": 2,
+					"minValue": 0.1,
+					"maxValue": 10,
+					"name": "Roulette"
+				}
+			],
+			"rules": [
+				{
+					"command": "rain",
+					"minValue": 0.001
+				},
+				{
+					"command": "tip",
+					"minValue": 0.001
+				},
+				{
+					"command": "withdraw",
+					"minValue": 0.001,
+					"maxValue": 2000000
+				}
+			]
+		},
+		{
+			"id": "rtk",
+			"ticker": "RTK",
+			"type": "erc20",
+			"addressType": "ethereum",
+			"name": "Ruletka",
+			"events": true,
+			"withdrawal": true,
+			"safeGasAmount": 120000,
+			"info": {
+				"customEmoji": "🔫",
+				"telegram": "https://t.me/RuletkaToken",
+				"coinGeckoId" : "ruletka"
+			},
+			"blockchain": {
+				"mainnet-contract": "0x1F6deadDc2a81704a206Fd587D8e3643BD2d449c",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+				"contract": "0x1F6deadDc2a81704a206Fd587D8e3643BD2d449c",
+				"decimals": 18
+			},
+			"charges": {
+				"minimumWithdrawalCharge": 0.1,
+				"maximumWithdrawalCharge": 10000,
+				"feeTicker": "eth",
+				"useTargetAltAsFee": true,
+				"useTargetSelfAsFee": false,
+				"useForceAltAsFee" : true
+			},
+			"games": [
+				{
+					"command": "fight",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 10,
+					"name": "Fight"
+				},
+				{
+					"command": "dice",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 10,
+					"name": "Dice"
+				},
+				{
+					"command": "roulette",
+					"houseFee": 2,
+					"minValue": 0.1,
+					"maxValue": 10,
+					"name": "Roulette"
+				}
+			],
+			"rules": [
+				{
+					"command": "rain",
+					"minValue": 0.001
+				},
+				{
+					"command": "tip",
+					"minValue": 0.001
+				},
+				{
+					"command": "withdraw",
+					"minValue": 0.001,
+					"maxValue": 2000000
+				}
+			]
 		}
 	]
 }
