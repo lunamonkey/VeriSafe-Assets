@@ -95,90 +95,6 @@
             }
         },
         {
-            "id": "ash",
-            "ticker": "ASH",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "Ash",
-            "events": true,
-            "info": {
-                "customEmoji": "⚱️",
-                "telegram": "https://t.me/stateratoken"
-            },
-            "blockchain": {
-                "decimals": 18,
-                "mainnet-contract": "0x71590d4ed14d9cbacb2cff8abf919ac4d22c5b7b",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0x71590d4ed14d9cbacb2cff8abf919ac4d22c5b7b"
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 2,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "AshDice"
-                }
-            ],
-            "safeGasAmount": 800000,
-            "switch": [
-                {
-                    "to": "sta",
-                    "ratio": 0.1
-                }
-            ]
-        },
-        {
-            "id": "burn",
-            "ticker": "BURN",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "The Burn Token",
-            "events": true,
-            "info": {
-                "customEmoji": "🔥",
-                "telegram": "https://t.me/stateratoken"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x4f7c5bd3f7d62a9c984e265d73a86f5515f3e92b",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0x4f7c5bd3f7d62a9c984e265d73a86f5515f3e92b",
-                "decimals": 0
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 2,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "BurnDice"
-                }
-            ],
-            "safeGasAmount": 120000,
-            "switch": [
-                {
-                    "to": "sta",
-                    "ratio": 0.1
-                }
-            ]
-        },
-        {
             "id": "pixby",
             "ticker": "PIXBY",
             "type": "erc20",
@@ -218,52 +134,6 @@
                     "minValue": 1,
                     "maxValue": 10,
                     "name": "Roulette"
-                }
-            ]
-        },
-        {
-            "id": "wwt",
-            "ticker": "WWT",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "World Wide Trade",
-            "events": true,
-            "info": {
-                "telegram": "https://t.me/worldwidetradeWWT",
-                "coinGeckoId": "worldwidetrade",
-                "customEmoji": "🌐"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x512630DC263FD4c71DBe81Fec68cF61156d79E80",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0x512630DC263FD4c71DBe81Fec68cF61156d79E80",
-                "decimals": 18
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 10,
-                    "maxValue": 2000,
-                    "name": "WWTDice"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 1
-                },
-                {
-                    "command": "tip",
-                    "minValue": 1
                 }
             ]
         },
@@ -314,41 +184,6 @@
             ]
         },
         {
-            "id": "bdax",
-            "ticker": "BDAX",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "BoldDax",
-            "events": true,
-            "info": {
-                "customEmoji": "♦️",
-                "telegram": "https://t.me/BoldDax"
-            },
-            "blockchain": {
-                "mainnet-contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0xE6B9018365cE008319DF4Dec715E664B3CC93321",
-                "decimals": 18
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 20,
-                    "name": "BoldDice"
-                }
-            ]
-        },
-        {
             "id": "btf",
             "ticker": "BTF",
             "type": "erc20",
@@ -383,52 +218,6 @@
                 }
             ],
             "hideOnDex": true
-        },
-        {
-            "id": "mbc",
-            "ticker": "MBC",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "MobaCoin",
-            "events": true,
-            "info": {
-                "coinGeckoId": "mobacoin",
-                "customEmoji": "🪙",
-                "telegram": "https://t.me/mobaproject"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x47af9fd69adc231e674140c81811a640dd92dc51",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0x47af9fd69adc231e674140c81811a640dd92dc51",
-                "decimals": 8
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 10,
-                    "maxValue": 1000,
-                    "name": "Mobadice"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.1
-                },
-                {
-                    "command": "rain",
-                    "minimumTokens": 1
-                }
-            ]
         },
         {
             "id": "xdb",
@@ -487,59 +276,6 @@
                 {
                     "command": "tip",
                     "minValue": 10
-                }
-            ]
-        },
-        {
-            "id": "gen",
-            "ticker": "GEN",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "Genesis",
-            "events": true,
-            "info": {
-                "coinGeckoId": "genesis-coin",
-                "customEmoji": "💵",
-                "telegram": "https://t.me/Genesis_en"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x334425ef9a828e31ff27e0754a3198edb714c57b",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0x334425ef9a828e31ff27e0754a3198edb714c57b",
-                "decimals": 8
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.1,
-                    "maxValue": 10,
-                    "name": "GenDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "GenFight"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.1
-                },
-                {
-                    "command": "tip",
-                    "minValue": 1
                 }
             ]
         },
@@ -1273,66 +1009,6 @@
             ]
         },
         {
-            "id": "cso",
-            "ticker": "CSO",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "Coinsto Token",
-            "events": true,
-            "withdrawal": true,
-            "safeGasAmount": 100000,
-            "info": {
-                "customEmoji": "🐺",
-                "telegram": "https://t.me/coinstocommunity",
-                "coinGeckoId": "coinsto"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x2a469A22101f1F672B745D729D13Ab8DBd203C9B",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0x2a469A22101f1F672B745D729D13Ab8DBd203C9B",
-                "decimals": 8
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 1000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 1000,
-                    "name": "CSOFight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 1000,
-                    "name": "CSODice"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 1
-                },
-                {
-                    "command": "tip",
-                    "minValue": 1
-                },
-                {
-                    "command": "withdraw",
-                    "minValue": 1,
-                    "maxValue": 2000000
-                }
-            ]
-        },
-        {
             "id": "sdt",
             "ticker": "SDT",
             "type": "erc20",
@@ -1527,73 +1203,6 @@
             ]
         },
         {
-            "id": "rtk",
-            "ticker": "RTK",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "Ruletka",
-            "events": true,
-            "withdrawal": true,
-            "safeGasAmount": 120000,
-            "info": {
-                "customEmoji": "🔫",
-                "telegram": "https://t.me/RuletkaToken",
-                "coinGeckoId": "ruletka"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x1F6deadDc2a81704a206Fd587D8e3643BD2d449c",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0x1F6deadDc2a81704a206Fd587D8e3643BD2d449c",
-                "decimals": 18
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 0.1,
-                "maximumWithdrawalCharge": 10000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "games": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 10,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 10,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.001
-                },
-                {
-                    "command": "tip",
-                    "minValue": 0.001
-                },
-                {
-                    "command": "withdraw",
-                    "minValue": 0.001,
-                    "maxValue": 2000000
-                }
-            ]
-        },
-        {
             "id": "set",
             "ticker": "SET",
             "type": "erc20",
@@ -1661,24 +1270,24 @@
             ]
         },
         {
-            "id": "rsc",
-            "ticker": "RSC",
+            "id": "3cs",
+            "ticker": "3Cs",
             "type": "erc20",
             "addressType": "ethereum",
-            "name": "RSCOIN",
+            "name": "CryptoCricketClub",
             "events": true,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
-                "customEmoji": "🆗",
-                "telegram": "https://t.me/rscoi",
-                "coinGeckoIdxxx": ""
+                "customEmoji": "🏏",
+                "telegram": "https://t.me/cryptocricketclub_official",
+                "coinGeckoId": "cryptocricketclub"
             },
             "blockchain": {
-                "mainnet-contract": "0xa129c7C5ffA54A99B5e4D7c679C2Cd7ab2b12867",
+                "mainnet-contract": "0x4f56221252d117f35E2f6Ab937A3F77CAd38934D",
                 "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0xa129c7C5ffA54A99B5e4D7c679C2Cd7ab2b12867",
-                "decimals": 10
+                "contract": "0x4f56221252d117f35E2f6Ab937A3F77CAd38934D",
+                "decimals": 18
             },
             "charges": {
                 "minimumWithdrawalCharge": 0.1,
@@ -1728,31 +1337,31 @@
             ]
         },
         {
-            "id": "3cs",
-            "ticker": "3Cs",
+            "id": "swap",
+            "ticker": "SWAP",
             "type": "erc20",
             "addressType": "ethereum",
-            "name": "CryptoCricketClub",
+            "name": "TrustSwap Token",
             "events": true,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
-                "customEmoji": "🏏",
-                "telegram": "https://t.me/cryptocricketclub_official",
-                "coinGeckoId": "cryptocricketclub"
+                "customEmoji": "♾",
+                "telegram": "https://t.me/TrustSwap",
+                "coinGeckoId": "trustswap"
             },
             "blockchain": {
-                "mainnet-contract": "0x4f56221252d117f35E2f6Ab937A3F77CAd38934D",
+                "mainnet-contract": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
                 "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0x4f56221252d117f35E2f6Ab937A3F77CAd38934D",
+                "contract": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
                 "decimals": 18
             },
             "charges": {
                 "minimumWithdrawalCharge": 0.1,
                 "maximumWithdrawalCharge": 10000,
                 "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
+                "useTargetAltAsFee": false,
+                "useTargetSelfAsFee": true,
                 "useForceAltAsFee": false
             },
             "games": [
