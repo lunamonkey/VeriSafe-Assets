@@ -1203,73 +1203,6 @@
 			]
 		},
 		{
-			"id": "set",
-			"ticker": "SET",
-			"type": "erc20",
-			"addressType": "ethereum",
-			"name": "SetoCoin",
-			"events": true,
-			"withdrawal": true,
-			"safeGasAmount": 120000,
-			"info": {
-				"customEmoji": "🚀",
-				"telegram": "https://t.me/setocoinofficial",
-				"coinGeckoId" : "setocoin"
-			},
-			"blockchain": {
-				"mainnet-contract": "0xc1a29a42876ff31D6c30341f5CF400dD8e766d91",
-				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-				"contract": "0xc1a29a42876ff31D6c30341f5CF400dD8e766d91",
-				"decimals": 8
-			},
-			"charges": {
-				"minimumWithdrawalCharge": 0.1,
-				"maximumWithdrawalCharge": 10000,
-				"feeTicker": "eth",
-				"useTargetAltAsFee": true,
-				"useTargetSelfAsFee": false,
-				"useForceAltAsFee" : true
-			},
-			"games": [
-				{
-					"command": "fight",
-					"houseFee": 3,
-					"minValue": 0.001,
-					"maxValue": 10,
-					"name": "Fight"
-				},
-				{
-					"command": "dice",
-					"houseFee": 3,
-					"minValue": 0.001,
-					"maxValue": 10,
-					"name": "Dice"
-				},
-				{
-					"command": "roulette",
-					"houseFee": 0,
-					"minValue": 0.1,
-					"maxValue": 10,
-					"name": "Roulette"
-				}
-			],
-			"rules": [
-				{
-					"command": "rain",
-					"minValue": 0.001
-				},
-				{
-					"command": "tip",
-					"minValue": 0.001
-				},
-				{
-					"command": "withdraw",
-					"minValue": 0.001,
-					"maxValue": 2000000
-				}
-			]
-		},
-		{
 			"id": "3cs",
 			"ticker": "3Cs",
 			"type": "erc20",
@@ -1422,6 +1355,73 @@
 				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
 				"contract": "0x0c2e3bbc4646c872a3F5A745D2902aFFda82C58a",
 				"decimals": 8
+			},
+			"charges": {
+				"minimumWithdrawalCharge": 0.1,
+				"maximumWithdrawalCharge": 10000,
+				"feeTicker": "eth",
+				"useTargetAltAsFee": true,
+				"useTargetSelfAsFee": false,
+				"useForceAltAsFee" : true
+			},
+			"games": [
+				{
+					"command": "fight",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 100,
+					"name": "Fight"
+				},
+				{
+					"command": "dice",
+					"houseFee": 3,
+					"minValue": 0.001,
+					"maxValue": 100,
+					"name": "Dice"
+				},
+				{
+					"command": "roulette",
+					"houseFee": 0,
+					"minValue": 0.1,
+					"maxValue": 100,
+					"name": "Roulette"
+				}
+			],
+			"rules": [
+				{
+					"command": "rain",
+					"minValue": 0.001
+				},
+				{
+					"command": "tip",
+					"minValue": 0.001
+				},
+				{
+					"command": "withdraw",
+					"minValue": 0.001,
+					"maxValue": 2000000
+				}
+			]
+		},
+		{
+			"id": "bonk",
+			"ticker": "BONK",
+			"type": "erc20",
+			"addressType": "ethereum",
+			"name": "BONKTOKEN",
+			"events": true,
+			"withdrawal": true,
+			"safeGasAmount": 120000,
+			"info": {
+				"customEmoji": "🔨",
+				"telegram": "https://t.me/bonktoken",
+				"coinGeckoIdxxx" : ""
+			},
+			"blockchain": {
+				"mainnet-contract": "0x6d6506e6f438ede269877a0a720026559110b7d5",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+				"contract": "0x6d6506e6f438ede269877a0a720026559110b7d5",
+				"decimals": 18
 			},
 			"charges": {
 				"minimumWithdrawalCharge": 0.1,
