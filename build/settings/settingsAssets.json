@@ -15,8 +15,8 @@
                 "customEmoji": "♦"
             },
             "charges": {
-                "minimumWithdrawalCharge": 0.0004,
-                "standardWithdrawalCharge": 0.0015,
+                "minimumWithdrawalCharge": 0.0025,
+                "standardWithdrawalCharge": 0.0025,
                 "maximumWithdrawalCharge": 0.01,
                 "useTargetAltAsFee": false,
                 "useTargetSelfAsFee": true,
@@ -36,71 +36,12 @@
             ]
         },
         {
-            "id": "trx",
-            "ticker": "TRX",
-            "type": "tron",
-            "addressType": "tron",
-            "name": "TRON",
-            "blockchain": {
-                "decimals": 6
-            },
-            "events": true,
-            "withdraw": true,
-            "info": {
-                "coinGeckoId": "tron",
-                "customEmoji": "♦"
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 0.1,
-                "standardWithdrawalCharge": 0.1,
-                "maximumWithdrawalCharge": 0.1,
-                "useTargetAltAsFee": false,
-                "useTargetSelfAsFee": true,
-                "useForceAltAsFee": false,
-                "feeTicker": "trx"
-            },
-            "safeGasAmount": 100000,
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.001
-                },
-                {
-                    "command": "tip",
-                    "minValue": 0.001
-                }
-            ]
-        },
-        {
-            "id": "btc",
-            "ticker": "BTC",
-            "type": "bitcoin",
-            "addressType": "bitcoin",
-            "name": "BitCoin (Demo only)",
-            "events": false,
-            "withdraw": false,
-            "info": {
-                "coinGeckoId": "bitcoin",
-                "customEmoji": "₿"
-            },
-            "blockchain": {
-                "decimals": 8
-            },
-            "charges": {
-                "feeTicker": "btc",
-                "useTargetAltAsFee": false,
-                "useTargetSelfAsFee": true,
-                "useForceAltAsFee": false,
-                "minimumWithdrawalCharge": 0.01
-            }
-        },
-        {
             "id": "pixby",
             "ticker": "PIXBY",
             "type": "erc20",
             "addressType": "ethereum",
             "name": "PIXBY",
-            "events": true,
+            "events": false,
             "info": {
                 "customEmoji": "⛋",
                 "coinGeckoId": "pixby",
@@ -120,7 +61,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": false
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 2,
@@ -143,7 +84,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "ETHBOLD",
-            "events": true,
+            "events": false,
             "info": {
                 "coinGeckoId": "ethbold",
                 "customEmoji": "♦️",
@@ -163,7 +104,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -189,7 +130,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "BitPhantom",
-            "events": true,
+            "events": false,
             "info": {
                 "telegram": "https://t.me/bitphantomio",
                 "customEmoji": "🕸️"
@@ -208,7 +149,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -225,7 +166,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "DigitalBits",
-            "events": true,
+            "events": false,
             "info": {
                 "coinGeckoId": "digitalbits",
                 "customEmoji": "🔵",
@@ -243,9 +184,9 @@
                 "feeTicker": "eth",
                 "useTargetAltAsFee": true,
                 "useTargetSelfAsFee": false,
-                "useForceAltAsFee": false
+                "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -285,7 +226,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "BUSINESS TICKER COIN",
-            "events": true,
+            "events": false,
             "info": {
                 "coinGeckoId": "business-ticker-coin",
                 "customEmoji": "💵",
@@ -305,7 +246,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -338,7 +279,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Trifolium Coin",
-            "events": true,
+            "events": false,
             "hideOnDex": true,
             "safeGasAmount": 150000,
             "info": {
@@ -360,7 +301,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -398,7 +339,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "CryptoDash Token",
-            "events": true,
+            "events": false,
             "hideOnDex": true,
             "safeGasAmount": 120000,
             "info": {
@@ -420,7 +361,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -458,7 +399,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Ether Pro",
-            "events": true,
+            "events": false,
             "hideOnDex": true,
             "safeGasAmount": 120000,
             "info": {
@@ -479,7 +420,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -517,7 +458,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "TrustUSD",
-            "events": true,
+            "events": false,
             "hideOnDex": true,
             "safeGasAmount": 120000,
             "info": {
@@ -539,7 +480,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -577,7 +518,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Incinerate",
-            "events": true,
+            "events": false,
             "safeGasAmount": 120000,
             "info": {
                 "customEmoji": "🔥",
@@ -598,7 +539,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -662,9 +603,9 @@
                 "feeTicker": "eth",
                 "useTargetAltAsFee": true,
                 "useTargetSelfAsFee": false,
-                "useForceAltAsFee": false
+                "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -730,7 +671,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "dice",
                     "houseFee": 3,
@@ -768,7 +709,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "AfterShock",
-            "events": true,
+            "events": false,
             "safeGasAmount": 200000,
             "info": {
                 "telegram": "https://t.me/aftershock_token",
@@ -789,7 +730,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -820,7 +761,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Falcon",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -842,7 +783,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -887,7 +828,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "BRAPPER",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 140000,
             "info": {
@@ -909,7 +850,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -947,7 +888,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Statera",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -969,7 +910,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": false
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -1014,7 +955,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Semi Deflationary Token",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -1036,7 +977,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -1074,7 +1015,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Black Hole",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -1096,7 +1037,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -1141,7 +1082,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "Retric",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -1163,7 +1104,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -1208,7 +1149,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "CryptoCricketClub",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -1230,7 +1171,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -1275,7 +1216,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "TrustSwap Token",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -1293,11 +1234,11 @@
                 "minimumWithdrawalCharge": 0.1,
                 "maximumWithdrawalCharge": 10000,
                 "feeTicker": "eth",
-                "useTargetAltAsFee": false,
-                "useTargetSelfAsFee": true,
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
                 "useForceAltAsFee": false
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -1342,7 +1283,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "FlashX Coin",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -1364,7 +1305,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
@@ -1409,7 +1350,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "BONKTOKEN",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -1431,7 +1372,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
+            "gamesXXX": [
                 {
                     "command": "fight",
                     "houseFee": 3,
