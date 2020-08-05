@@ -77,6 +77,13 @@
 					"name": "Roulette"
 				}
 			]
+			,
+			"rules":[
+				{
+					"command": "withdraw",
+					"minValue": 0.001,
+					"maxValue": 50000
+				}]
 		},
 		{
 			"id": "ethbold",
