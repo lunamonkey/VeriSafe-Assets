@@ -7,6 +7,7 @@
             "addressType": "ethereum",
             "name": "Ethereum",
             "events": true,
+            "withdrawal": true,
             "blockchain": {
                 "decimals": 18
             },
@@ -31,7 +32,275 @@
                 },
                 {
                     "command": "tip",
+                    "minValue": 0.001,
+                    "maxValue": 0
+                }
+            ]
+        },
+        {
+            "id": "sta",
+            "ticker": "STA",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "Statera",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "coinGeckoId": "statera",
+                "customEmoji": "🌀",
+                "telegram": "https://t.me/stateratoken"
+            },
+            "blockchain": {
+                "mainnet-contract": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
+                "decimals": 18
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 10000000,
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "eth",
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
+                "useForceAltAsFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 1,
+                    "maxValue": 1000,
+                    "name": "StaFight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 1,
+                    "maxValue": 1000,
+                    "name": "StaDice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 0,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 0.1
+                },
+                {
+                    "command": "tip",
+                    "minValue": 0.1,
+                    "maxValue": 1000
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 0.1,
+                    "maxValue": 2000000
+                }
+            ]
+        },
+        {
+            "id": "swap",
+            "ticker": "SWAP",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "TrustSwap Token",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "customEmoji": "♾",
+                "telegram": "https://t.me/TrustSwap",
+                "coinGeckoId": "trustswap"
+            },
+            "blockchain": {
+                "mainnet-contract": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
+                "decimals": 18
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 0.1,
+                "maximumWithdrawalCharge": 10000,
+                "feeTicker": "eth",
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
+                "useForceAltAsFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 0.001,
+                    "maxValue": 100,
+                    "name": "Fight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 0.001,
+                    "maxValue": 100,
+                    "name": "Dice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 0,
+                    "minValue": 0.1,
+                    "maxValue": 100,
+                    "name": "Roulette"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
                     "minValue": 0.001
+                },
+                {
+                    "command": "tip",
+                    "minValue": 0.001,
+                    "maxValue": 1000
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 0.001,
+                    "maxValue": 2000000
+                }
+            ]
+        },
+        {
+            "id": "xdb",
+            "ticker": "XDB",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "DigitalBits",
+            "events": true,
+            "withdrawal": true,
+            "info": {
+                "coinGeckoId": "digitalbits",
+                "customEmoji": "🔵",
+                "telegram": "https://t.me/digitalbitstrading"
+            },
+            "blockchain": {
+                "mainnet-contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
+                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
+                "contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
+                "decimals": 7
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 1000000,
+                "maximumWithdrawalCharge": 1000000,
+                "feeTicker": "eth",
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
+                "useForceAltAsFee": true
+            },
+            "games": [
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 0.1,
+                    "maxValue": 10,
+                    "name": "XDBDice"
+                },
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 20,
+                    "maxValue": 2000,
+                    "name": "XDBFight"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 0,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 0.1
+                },
+                {
+                    "command": "tip",
+                    "minValue": 10,
+                    "maxValue": 0
+                }
+            ]
+        },
+        {
+            "id": "srk",
+            "ticker": "SRK",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "SparkPoint",
+            "events": true,
+            "withdrawal": true,
+            "hideOnDex": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "coinGeckoId": "sparkpoint",
+                "customEmoji": "✨",
+                "telegram": "https://t.me/SparkPointOfficial"
+            },
+            "blockchain": {
+                "mainnet-contract": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
+                "decimals": 18
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 10000000,
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "eth",
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
+                "useForceAltAsFee": true
+            },
+            "games": [
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 100,
+                    "maxValue": 50000,
+                    "name": "SRKDice"
+                },
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 100,
+                    "maxValue": 20000,
+                    "name": "SRKFight"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 0,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 10
+                },
+                {
+                    "command": "tip",
+                    "minValue": 10,
+                    "maxValue": 0
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 1,
+                    "maxValue": 50000
                 }
             ]
         },
@@ -41,7 +310,8 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "PIXBY",
-            "events": false,
+            "events": true,
+            "withdrawal": true,
             "info": {
                 "customEmoji": "⛋",
                 "coinGeckoId": "pixby",
@@ -61,7 +331,7 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": false
             },
-            "gamesXXX": [
+            "games": [
                 {
                     "command": "dice",
                     "houseFee": 2,
@@ -82,6 +352,79 @@
                     "command": "withdraw",
                     "minValue": 0.001,
                     "maxValue": 50000
+                },
+                {
+                    "command": "tip",
+                    "minValue": 0.1,
+                    "maxValue": 50000
+                }
+            ]
+        },
+        {
+            "id": "fnt",
+            "ticker": "FNT",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "Falcon",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "coinGeckoId": "falcon-token",
+                "customEmoji": "🦅",
+                "telegram": "https://t.me/Falcon_official"
+            },
+            "blockchain": {
+                "mainnet-contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+                "decimals": 6
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 10000000,
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "eth",
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
+                "useForceAltAsFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 10,
+                    "maxValue": 10000,
+                    "name": "FalconFight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 10,
+                    "maxValue": 10000,
+                    "name": "FalconDice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 0,
+                    "minValue": 1,
+                    "maxValue": 10,
+                    "name": "Roulette"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 10
+                },
+                {
+                    "command": "tip",
+                    "minValue": 10,
+                    "maxValue": 10000
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 1,
+                    "maxValue": 2000000
                 }
             ]
         },
@@ -92,6 +435,7 @@
             "addressType": "ethereum",
             "name": "ETHBOLD",
             "events": false,
+            "withdrawal": true,
             "info": {
                 "coinGeckoId": "ethbold",
                 "customEmoji": "♦️",
@@ -127,7 +471,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.1
+                    "minValue": 0.1,
+                    "maxValue": 0
                 }
             ]
         },
@@ -138,6 +483,7 @@
             "addressType": "ethereum",
             "name": "BitPhantom",
             "events": false,
+            "withdrawal": true,
             "info": {
                 "telegram": "https://t.me/bitphantomio",
                 "customEmoji": "🕸️"
@@ -165,57 +511,6 @@
                     "name": "PhantomDice"
                 }
             ],
-            "hideOnDex": true
-        },
-        {
-            "id": "xdb",
-            "ticker": "XDB",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "DigitalBits",
-            "events": false,
-            "info": {
-                "coinGeckoId": "digitalbits",
-                "customEmoji": "🔵",
-                "telegram": "https://t.me/digitalbitstrading"
-            },
-            "blockchain": {
-                "mainnet-contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
-                "testnet-contract": "0xdcebdfeee909d27c9353c69d036ecee5e3489049",
-                "contract": "0xb9eefc4b0d472a44be93970254df4f4016569d27",
-                "decimals": 7
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 1000000,
-                "maximumWithdrawalCharge": 1000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.1,
-                    "maxValue": 10,
-                    "name": "XDBDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 20,
-                    "maxValue": 2000,
-                    "name": "XDBFight"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -223,9 +518,11 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 10
+                    "minValue": 0.1,
+                    "maxValue": 0
                 }
-            ]
+            ],
+            "hideOnDex": true
         },
         {
             "id": "bstc",
@@ -234,6 +531,7 @@
             "addressType": "ethereum",
             "name": "BUSINESS TICKER COIN",
             "events": false,
+            "withdrawal": true,
             "info": {
                 "coinGeckoId": "business-ticker-coin",
                 "customEmoji": "💵",
@@ -276,7 +574,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.01
+                    "minValue": 0.01,
+                    "maxValue": 0
                 }
             ]
         },
@@ -287,6 +586,7 @@
             "addressType": "ethereum",
             "name": "Trifolium Coin",
             "events": false,
+            "withdrawal": true,
             "hideOnDex": true,
             "safeGasAmount": 150000,
             "info": {
@@ -331,7 +631,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 1
+                    "minValue": 1,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -347,6 +648,7 @@
             "addressType": "ethereum",
             "name": "CryptoDash Token",
             "events": false,
+            "withdrawal": true,
             "hideOnDex": true,
             "safeGasAmount": 120000,
             "info": {
@@ -391,7 +693,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 1
+                    "minValue": 1,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -407,6 +710,7 @@
             "addressType": "ethereum",
             "name": "Ether Pro",
             "events": false,
+            "withdrawal": true,
             "hideOnDex": true,
             "safeGasAmount": 120000,
             "info": {
@@ -450,7 +754,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 1
+                    "minValue": 1,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -466,6 +771,7 @@
             "addressType": "ethereum",
             "name": "TrustUSD",
             "events": false,
+            "withdrawal": true,
             "hideOnDex": true,
             "safeGasAmount": 120000,
             "info": {
@@ -510,7 +816,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.01
+                    "minValue": 0.01,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -526,6 +833,7 @@
             "addressType": "ethereum",
             "name": "Incinerate",
             "events": false,
+            "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
                 "customEmoji": "🔥",
@@ -576,7 +884,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 1
+                    "minValue": 1,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -586,77 +895,13 @@
             ]
         },
         {
-            "id": "srk",
-            "ticker": "SRK",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "SparkPoint",
-            "hideOnDex": true,
-            "safeGasAmount": 120000,
-            "info": {
-                "coinGeckoId": "sparkpoint",
-                "customEmoji": "✨",
-                "telegram": "https://t.me/SparkPointOfficial"
-            },
-            "blockchain": {
-                "mainnet-contract": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0x0488401c3f535193fa8df029d9ffe615a06e74e6",
-                "decimals": 18
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 100,
-                    "maxValue": 50000,
-                    "name": "SRKDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 100,
-                    "maxValue": 20000,
-                    "name": "SRKFight"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 10
-                },
-                {
-                    "command": "tip",
-                    "minValue": 10
-                },
-                {
-                    "command": "withdraw",
-                    "minValue": 1,
-                    "maxValue": 50000
-                }
-            ]
-        },
-        {
             "id": "rekt",
             "ticker": "REKT",
             "type": "erc20",
             "addressType": "ethereum",
             "name": "REKT",
+            "events": false,
+            "withdrawal": true,
             "hideOnDex": true,
             "safeGasAmount": 120000,
             "info": {
@@ -701,7 +946,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.01
+                    "minValue": 0.01,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -717,6 +963,7 @@
             "addressType": "ethereum",
             "name": "AfterShock",
             "events": false,
+            "withdrawal": true,
             "safeGasAmount": 200000,
             "info": {
                 "telegram": "https://t.me/aftershock_token",
@@ -753,79 +1000,13 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 10000
+                    "minValue": 10000,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
                     "minValue": 1,
                     "maxValue": 20000
-                }
-            ]
-        },
-        {
-            "id": "fnt",
-            "ticker": "FNT",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "Falcon",
-            "events": false,
-            "withdrawal": true,
-            "safeGasAmount": 120000,
-            "info": {
-                "coinGeckoId": "falcon-token",
-                "customEmoji": "🦅",
-                "telegram": "https://t.me/Falcon_official"
-            },
-            "blockchain": {
-                "mainnet-contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
-                "decimals": 6
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": true
-            },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 10,
-                    "maxValue": 10000,
-                    "name": "FalconFight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 10,
-                    "maxValue": 10000,
-                    "name": "FalconDice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 10
-                },
-                {
-                    "command": "tip",
-                    "minValue": 10
-                },
-                {
-                    "command": "withdraw",
-                    "minValue": 1,
-                    "maxValue": 2000000
                 }
             ]
         },
@@ -880,78 +1061,12 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 10
+                    "minValue": 10,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
                     "minValue": 1,
-                    "maxValue": 2000000
-                }
-            ]
-        },
-        {
-            "id": "sta",
-            "ticker": "STA",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "Statera",
-            "events": false,
-            "withdrawal": true,
-            "safeGasAmount": 120000,
-            "info": {
-                "coinGeckoId": "statera",
-                "customEmoji": "🌀",
-                "telegram": "https://t.me/stateratoken"
-            },
-            "blockchain": {
-                "mainnet-contract": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0xa7DE087329BFcda5639247F96140f9DAbe3DeED1",
-                "decimals": 18
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": false
-            },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 1000,
-                    "name": "StaFight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 1000,
-                    "name": "StaDice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.1
-                },
-                {
-                    "command": "tip",
-                    "minValue": 0.1
-                },
-                {
-                    "command": "withdraw",
-                    "minValue": 0.1,
                     "maxValue": 2000000
                 }
             ]
@@ -1007,7 +1122,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.001
+                    "minValue": 0.001,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -1074,7 +1190,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.001
+                    "minValue": 0.001,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -1141,7 +1258,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.001
+                    "minValue": 0.001,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -1208,74 +1326,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.001
-                },
-                {
-                    "command": "withdraw",
                     "minValue": 0.001,
-                    "maxValue": 2000000
-                }
-            ]
-        },
-        {
-            "id": "swap",
-            "ticker": "SWAP",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "TrustSwap Token",
-            "events": false,
-            "withdrawal": true,
-            "safeGasAmount": 120000,
-            "info": {
-                "customEmoji": "♾",
-                "telegram": "https://t.me/TrustSwap",
-                "coinGeckoId": "trustswap"
-            },
-            "blockchain": {
-                "mainnet-contract": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0xCC4304A31d09258b0029eA7FE63d032f52e44EFe",
-                "decimals": 18
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 0.1,
-                "maximumWithdrawalCharge": 10000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": false
-            },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 100,
-                    "name": "Roulette"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.001
-                },
-                {
-                    "command": "tip",
-                    "minValue": 0.001
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -1342,7 +1394,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.001
+                    "minValue": 0.001,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -1409,7 +1462,8 @@
                 },
                 {
                     "command": "tip",
-                    "minValue": 0.001
+                    "minValue": 0.001,
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
