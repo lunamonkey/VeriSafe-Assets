@@ -429,6 +429,142 @@
             ]
         },
         {
+            "id": "pamp",
+            "ticker": "PAMP",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "Pamp Network",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "coinGeckoId": "pamp-network",
+                "customEmoji": "💹",
+                "telegram": "https://t.me/pampnetwork"
+            },
+            "blockchain": {
+                "mainnet-contract": "0xf0fac7104aac544e4a7ce1a55adf2b5a25c65bd1",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0xf0fac7104aac544e4a7ce1a55adf2b5a25c65bd1",
+                "decimals": 18
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 10000000,
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "eth",
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
+                "useForceAltAsFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 0.01,
+                    "maxValue": 10,
+                    "name": "Fight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 0.01,
+                    "maxValue": 10,
+                    "name": "Dice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 0,
+                    "minValue": 0.01,
+                    "maxValue": 10,
+                    "name": "Roulette"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 0.001
+                },
+                {
+                    "command": "tip",
+                    "minValue": 0.001,
+                    "maxValue": 10000
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 0.01,
+                    "maxValue": 2000000
+                }
+            ]
+        },
+        {
+            "id": "rmpl",
+            "ticker": "RMPL",
+            "type": "erc20",
+            "addressType": "ethereum",
+            "name": "RMPL",
+            "events": true,
+            "withdrawal": true,
+            "safeGasAmount": 120000,
+            "info": {
+                "coinGeckoIdxxx": "",
+                "customEmoji": "🔃",
+                "telegram": "https://t.me/RMPLTG"
+            },
+            "blockchain": {
+                "mainnet-contract": "0xe17f017475a709de58e976081eb916081ff4c9d5",
+                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+                "contract": "0xe17f017475a709de58e976081eb916081ff4c9d5",
+                "decimals": 9
+            },
+            "charges": {
+                "minimumWithdrawalCharge": 10000000,
+                "maximumWithdrawalCharge": 10000000,
+                "feeTicker": "eth",
+                "useTargetAltAsFee": true,
+                "useTargetSelfAsFee": false,
+                "useForceAltAsFee": false
+            },
+            "games": [
+                {
+                    "command": "fight",
+                    "houseFee": 3,
+                    "minValue": 0.01,
+                    "maxValue": 10,
+                    "name": "Fight"
+                },
+                {
+                    "command": "dice",
+                    "houseFee": 3,
+                    "minValue": 0.01,
+                    "maxValue": 10,
+                    "name": "Dice"
+                },
+                {
+                    "command": "roulette",
+                    "houseFee": 0,
+                    "minValue": 0.01,
+                    "maxValue": 10,
+                    "name": "Roulette"
+                }
+            ],
+            "rules": [
+                {
+                    "command": "rain",
+                    "minValue": 0.001
+                },
+                {
+                    "command": "tip",
+                    "minValue": 0.001,
+                    "maxValue": 10000
+                },
+                {
+                    "command": "withdraw",
+                    "minValue": 1,
+                    "maxValue": 2000000
+                }
+            ]
+        },
+        {
             "id": "ethbold",
             "ticker": "ETHBOLD",
             "type": "erc20",
