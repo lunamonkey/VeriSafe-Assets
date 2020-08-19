@@ -77,7 +77,7 @@
 					"command": "dice",
 					"houseFee": 3,
 					"minValue": 1,
-					"maxValue": 1000,
+					"maxValue": 10,
 					"name": "StaDice"
 				},
 				{
@@ -101,7 +101,7 @@
 				{
 					"command": "withdraw",
 					"minValue": 0.1,
-					"maxValue": 2000000
+					"maxValue": 3000
 				}
 			]
 		},
@@ -231,7 +231,7 @@
 				{
 					"command": "tip",
 					"minValue": 10,
-					"maxValue" : 0
+					"maxValue" : 10000
 				}
 			]
 		},
@@ -295,7 +295,7 @@
 				{
 					"command": "tip",
 					"minValue": 10,
-					"maxValue":0
+					"maxValue": 10000
 				},
 				{
 					"command": "withdraw",
@@ -419,7 +419,7 @@
 				{
 					"command": "tip",
 					"minValue": 10,
-					"maxValue":10000
+					"maxValue": 10000
 				},
 				{
 					"command": "withdraw",
@@ -1554,7 +1554,7 @@
 			"info": {
 				"customEmoji": "🔨",
 				"telegram": "https://t.me/bonktoken",
-				"coinGeckoIdxxx" : ""
+				"coinGeckoId" : "bonk-token"
 			},
 			"blockchain": {
 				"mainnet-contract": "0x6d6506e6f438ede269877a0a720026559110b7d5",
