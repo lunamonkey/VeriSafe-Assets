@@ -111,7 +111,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "TrustSwap Token",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "safeGasAmount": 120000,
             "info": {
@@ -133,38 +133,15 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": false
             },
-            "games": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 100,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
-                    "minValue": 0.001
+                    "minValue": 0.1
                 },
                 {
                     "command": "tip",
                     "minValue": 0.001,
-                    "maxValue": 1000
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -179,7 +156,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "DigitalBits",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "info": {
                 "coinGeckoId": "digitalbits",
@@ -200,29 +177,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.1,
-                    "maxValue": 10,
-                    "name": "XDBDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 20,
-                    "maxValue": 2000,
-                    "name": "XDBFight"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -231,7 +185,7 @@
                 {
                     "command": "tip",
                     "minValue": 10,
-                    "maxValue": 10000
+                    "maxValue": 0
                 }
             ]
         },
@@ -241,7 +195,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "SparkPoint",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "hideOnDex": true,
             "safeGasAmount": 120000,
@@ -264,38 +218,15 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 100,
-                    "maxValue": 50000,
-                    "name": "SRKDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 100,
-                    "maxValue": 20000,
-                    "name": "SRKFight"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
-                    "minValue": 10
+                    "minValue": 0.1
                 },
                 {
                     "command": "tip",
                     "minValue": 10,
-                    "maxValue": 10000
+                    "maxValue": 0
                 },
                 {
                     "command": "withdraw",
@@ -310,7 +241,7 @@
             "type": "erc20",
             "addressType": "ethereum",
             "name": "PIXBY",
-            "events": true,
+            "events": false,
             "withdrawal": true,
             "info": {
                 "customEmoji": "⛋",
@@ -331,22 +262,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": false
             },
-            "games": [
-                {
-                    "command": "dice",
-                    "houseFee": 2,
-                    "minValue": 10,
-                    "maxValue": 10000,
-                    "name": "PIXBYDice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "withdraw",
@@ -356,7 +271,7 @@
                 {
                     "command": "tip",
                     "minValue": 0.1,
-                    "maxValue": 50000
+                    "maxValue": 0
                 }
             ]
         },
@@ -429,142 +344,6 @@
             ]
         },
         {
-            "id": "pamp",
-            "ticker": "PAMP",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "Pamp Network",
-            "events": true,
-            "withdrawal": true,
-            "safeGasAmount": 120000,
-            "info": {
-                "coinGeckoId": "pamp-network",
-                "customEmoji": "💹",
-                "telegram": "https://t.me/pampnetwork"
-            },
-            "blockchain": {
-                "mainnet-contract": "0xf0fac7104aac544e4a7ce1a55adf2b5a25c65bd1",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0xf0fac7104aac544e4a7ce1a55adf2b5a25c65bd1",
-                "decimals": 18
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": false
-            },
-            "games": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.001
-                },
-                {
-                    "command": "tip",
-                    "minValue": 0.001,
-                    "maxValue": 10000
-                },
-                {
-                    "command": "withdraw",
-                    "minValue": 0.01,
-                    "maxValue": 2000000
-                }
-            ]
-        },
-        {
-            "id": "rmpl",
-            "ticker": "RMPL",
-            "type": "erc20",
-            "addressType": "ethereum",
-            "name": "RMPL",
-            "events": true,
-            "withdrawal": true,
-            "safeGasAmount": 120000,
-            "info": {
-                "coinGeckoIdxxx": "",
-                "customEmoji": "🔃",
-                "telegram": "https://t.me/RMPLTG"
-            },
-            "blockchain": {
-                "mainnet-contract": "0xe17f017475a709de58e976081eb916081ff4c9d5",
-                "testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-                "contract": "0xe17f017475a709de58e976081eb916081ff4c9d5",
-                "decimals": 9
-            },
-            "charges": {
-                "minimumWithdrawalCharge": 10000000,
-                "maximumWithdrawalCharge": 10000000,
-                "feeTicker": "eth",
-                "useTargetAltAsFee": true,
-                "useTargetSelfAsFee": false,
-                "useForceAltAsFee": false
-            },
-            "games": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
-            "rules": [
-                {
-                    "command": "rain",
-                    "minValue": 0.001
-                },
-                {
-                    "command": "tip",
-                    "minValue": 0.001,
-                    "maxValue": 10000
-                },
-                {
-                    "command": "withdraw",
-                    "minValue": 1,
-                    "maxValue": 2000000
-                }
-            ]
-        },
-        {
             "id": "ethbold",
             "ticker": "ETHBOLD",
             "type": "erc20",
@@ -591,15 +370,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 20,
-                    "name": "EthBoldDice"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -638,15 +408,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.1,
-                    "maxValue": 10,
-                    "name": "PhantomDice"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -687,22 +448,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 50,
-                    "name": "BSTCDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "BSTCFight"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -744,22 +489,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 50,
-                    "name": "TriDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "TriFight"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -806,22 +535,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 50,
-                    "name": "CDashDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "CDashFight"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -867,22 +580,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 50,
-                    "name": "EPRODice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "EPROFight"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -929,22 +626,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 50,
-                    "name": "TRUSDDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "TRUSDFight"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -990,29 +671,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 50,
-                    "name": "INC8Dice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 1,
-                    "maxValue": 2000,
-                    "name": "INC8Fight"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1059,22 +717,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "REKTDice"
-                },
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.01,
-                    "maxValue": 30,
-                    "name": "REKTFight"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1120,15 +762,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 100,
-                    "maxValue": 100,
-                    "name": "SHOCKFight"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1174,22 +807,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 10,
-                    "maxValue": 10000,
-                    "name": "BrapFight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 10,
-                    "maxValue": 10000,
-                    "name": "BrapDice"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1235,22 +852,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.01,
-                    "maxValue": 10,
-                    "name": "SDTFight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 10,
-                    "name": "SDTDice"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1296,29 +897,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 10,
-                    "name": "HoleFight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 10,
-                    "name": "HoleDice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1364,29 +942,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 10,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 10,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 10,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1432,29 +987,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 100,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1500,29 +1032,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 100,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
@@ -1568,29 +1077,6 @@
                 "useTargetSelfAsFee": false,
                 "useForceAltAsFee": true
             },
-            "gamesXXX": [
-                {
-                    "command": "fight",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Fight"
-                },
-                {
-                    "command": "dice",
-                    "houseFee": 3,
-                    "minValue": 0.001,
-                    "maxValue": 100,
-                    "name": "Dice"
-                },
-                {
-                    "command": "roulette",
-                    "houseFee": 0,
-                    "minValue": 0.1,
-                    "maxValue": 100,
-                    "name": "Roulette"
-                }
-            ],
             "rules": [
                 {
                     "command": "rain",
