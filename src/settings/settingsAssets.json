@@ -106,6 +106,135 @@
 			]
 		},
 		{
+			"id": "fnt",
+			"ticker": "FNT",
+			"type": "erc20",
+			"addressType": "ethereum",
+			"name": "Falcon",
+			"events": true,
+			"withdrawal": true,
+			"safeGasAmount": 120000,
+			"info": {
+				"coinGeckoId" : "falcon-token",
+				"customEmoji": "🦅",
+				"telegram": "https://t.me/Falcon_official"
+			},
+			"blockchain": {
+				"mainnet-contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+				"contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
+				"decimals": 6
+			},
+			"charges": {
+				"minimumWithdrawalCharge": 10000000,
+				"maximumWithdrawalCharge": 10000000,
+				"feeTicker": "eth",
+				"useTargetAltAsFee": true,
+				"useTargetSelfAsFee": false,
+				"useForceAltAsFee" : false
+			},
+			"games": [
+				{
+					"command": "fight",
+					"houseFee": 3,
+					"minValue": 10,
+					"maxValue": 10000,
+					"name": "FalconFight"
+				},
+				{
+					"command": "dice",
+					"houseFee": 3,
+					"minValue": 10,
+					"maxValue": 10000,
+					"name": "FalconDice"
+				},
+				{
+					"command": "roulette",
+					"houseFee": 0,
+					"minValue": 1,
+					"maxValue": 10,
+					"name": "Roulette"
+				}
+			],
+			"rules": [
+				{
+					"command": "rain",
+					"minValue": 10
+				},
+				{
+					"command": "tip",
+					"minValue": 10,
+					"maxValue": 10000
+				},
+				{
+					"command": "withdraw",
+					"minValue": 1,
+					"maxValue": 2000000
+				}
+			]
+		},
+		{
+			"id": "dexg",
+			"ticker": "DEXG",
+			"type": "erc20",
+			"addressType": "ethereum",
+			"name": "Dextoken Governance",
+			"events": true,
+			"withdrawal": true,
+			"safeGasAmount": 120000,
+			"info": {
+				"coinGeckoId" : "dextoken-governance",
+				"customEmoji": "🔸",
+				"telegram": "https://t.me/Dextoken_Official_Group"
+			},
+			"blockchain": {
+				"mainnet-contract": "0xb81d70802a816b5dacba06d708b5acf19dcd436d",
+				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
+				"contract": "0xb81d70802a816b5dacba06d708b5acf19dcd436d",
+				"decimals": 18
+			},
+			"charges": {
+				"minimumWithdrawalCharge": 10000000,
+				"maximumWithdrawalCharge": 10000000,
+				"feeTicker": "eth",
+				"useTargetAltAsFee": true,
+				"useTargetSelfAsFee": false,
+				"useForceAltAsFee" : false
+			},
+			"games": [
+				{
+					"command": "dice",
+					"houseFee": 3,
+					"minValue": 0.0001,
+					"maxValue": 0.001,
+					"name": "FalconDice"
+				},
+				{
+					"command": "roulette",
+					"houseFee": 0,
+					"minValue": 0.0001,
+					"maxValue": 0.01,
+					"name": "Roulette"
+				}
+			],
+			"rules": [
+				{
+					"command": "rain",
+					"minValue": 0.0001
+				},
+				{
+					"command": "tip",
+					"minValue": 0.0001,
+					"maxValue": 10
+				},
+				{
+					"command": "withdraw",
+					"minValue": 0.0001,
+					"maxValue": 1
+				}
+			]
+		},
+		{
 			"id": "swap",
 			"ticker": "SWAP",
 			"type": "erc20",
@@ -272,74 +401,6 @@
 					"command": "tip",
 					"minValue": 0.1,
 					"maxValue": 0
-				}
-			]
-		},
-		{
-			"id": "fnt",
-			"ticker": "FNT",
-			"type": "erc20",
-			"addressType": "ethereum",
-			"name": "Falcon",
-			"events": true,
-			"withdrawal": true,
-			"safeGasAmount": 120000,
-			"info": {
-				"coinGeckoId" : "falcon-token",
-				"customEmoji": "🦅",
-				"telegram": "https://t.me/Falcon_official"
-			},
-			"blockchain": {
-				"mainnet-contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
-				"testnet-contract": "0x29fb74adb604cd520892443299e36cb3b4b23b62",
-				"contract": "0xdc5864ede28bd4405aa04d93e05a0531797d9d59",
-				"decimals": 6
-			},
-			"charges": {
-				"minimumWithdrawalCharge": 10000000,
-				"maximumWithdrawalCharge": 10000000,
-				"feeTicker": "eth",
-				"useTargetAltAsFee": true,
-				"useTargetSelfAsFee": false,
-				"useForceAltAsFee" : false
-			},
-			"games": [
-				{
-					"command": "fight",
-					"houseFee": 3,
-					"minValue": 10,
-					"maxValue": 10000,
-					"name": "FalconFight"
-				},
-				{
-					"command": "dice",
-					"houseFee": 3,
-					"minValue": 10,
-					"maxValue": 10000,
-					"name": "FalconDice"
-				},
-				{
-					"command": "roulette",
-					"houseFee": 0,
-					"minValue": 1,
-					"maxValue": 10,
-					"name": "Roulette"
-				}
-			],
-			"rules": [
-				{
-					"command": "rain",
-					"minValue": 10
-				},
-				{
-					"command": "tip",
-					"minValue": 10,
-					"maxValue": 10000
-				},
-				{
-					"command": "withdraw",
-					"minValue": 1,
-					"maxValue": 2000000
 				}
 			]
 		},
