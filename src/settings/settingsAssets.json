@@ -72,7 +72,7 @@
 					"minValue": 1,
 					"maxValue": 1000,
 					"name": "StaFight"
-				}
+				},
 				{
 					"command": "roulette",
 					"houseFee": 0,
